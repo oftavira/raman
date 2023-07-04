@@ -1,7 +1,7 @@
 # raman
 
 Jupyter notebook con un tratamiento de datos especializado en espectroscopía Raman.
-Para ejemplificar su uso se integran algunas muestras en la carpeta señalada con sus nombres.
+Para ejemplificar su uso se integran algunas muestras en la carpeta de muestras.
 
 Entre las acciones posibles estan disponibles al momento:
 
@@ -16,6 +16,10 @@ Se necesita instalar conda y despues en esta carpeta ejecutar:
 ```
 conda env create --file environment.yaml
 ```
+
+Despues de tener el ambiente activado se puede ejecutar el notebook con vscode o con jupyter lab.
+
+Las visualizaciones se pueden guardar como imagenes o como video.
 
 Una vez que se tiene una visualizacion se puede comprimir:
 
