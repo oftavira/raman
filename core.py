@@ -55,6 +55,16 @@ class RamanSpectrum:
         self.props[name] = prop
     
     # Create sliders for frequency, amplitude, and plot interval
+
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+     
     
 
     def interactive(self, x=[],y=[],mod = False, method='sav_gol'):
@@ -107,10 +117,9 @@ class RamanSpectrum:
                     proposed_y = np.polyval(ny, x)
                     proposed_x = x
                 else:
-                    print("Método no disponible")
-                    raise Exception
+                    raise Exception("Método no disponible")
             else:
-                pass
+                raise Exception("No se ha modificado el espectro")
             plt.figure(figsize=(4, 3))
             plt.plot(final_x[aa:bb], final_y[aa:bb])
             plt.plot(proposed_x, proposed_y, color='red', label='Proposed')
@@ -136,8 +145,18 @@ class RamanSpectrum:
 
         # Display the widgets
         display(interactive_plot)
+
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+     
     
-    def plotnsave(self,_dir,_show = True,xy=[]):
+    def plotnsave(self,_dir,_show = True,xy=[],mz = 1, circles = False):
         cdir = self.sample+'/'+_dir
         if not os.path.exists(cdir):
             os.makedirs(cdir)
@@ -149,8 +168,10 @@ class RamanSpectrum:
         else:
             x=xy[0]
             y=xy[1]
-
-        plt.plot(x,y)
+        if circles:
+            plt.plot(x,y,'o',markersize=mz)
+        else:
+            plt.plot(x,y)
         plt.xlabel("Wavenumber (cm$^{-1}$)")
         plt.ylabel("Intensity (counts)")
         plt.savefig(name)
@@ -244,7 +265,7 @@ class RamanSpectrum:
         plt.ylim(min(y_)-ef, max(y_)+ef)
         plt.xlabel("Wavenumber (cm$^{-1}$)")
         plt.ylabel("Intensity (counts)")
-        plt.title('With baseline')
+        plt.title('With baseline _._._: '+self.metadata['Acquired'])
         # Plotting the second part
         plt.subplot(2, 1, 2)  # Create subplot 2
         plt.plot(x_, y_ - np.polyval(fitted, x_))
@@ -306,15 +327,15 @@ class RamanSpectrum:
     
     
     
-    def sav_gol(self, x_arr, y_arr, window = 20, order=4, show=True, from_args = False):
+    def sav_gol(self, x, y, window = 20, order=4, show=True, from_args = False):
         """
         Takes the x and y values and applies a Savitzky-Golay filter
         sets self.denoisedx and self.denoisedy to the denoised values
         """
 
         if from_args:
-            x = x_arr
-            y = y_arr
+            x = x
+            y = y
         else:
             x = self.x
             y = self.y
@@ -344,6 +365,8 @@ class RamanSpectrum:
         plt.savefig(name)
         if show:
             plt.show()
+        else:
+            self.plotnsave(_dir='denoised_and_baselined',_show=False,circles=True,mz=1)
         plt.clf()
 
     def baseline(self,degree = 1, show = False, before=False):
