@@ -152,7 +152,7 @@ class RamanSpectrum:
                     raise Exception("Método no disponible")
             else:
                 raise Exception("No se ha modificado el espectro")
-            plt.figure(figsize=(4, 3))
+            plt.figure(figsize=(10, 6))
             plt.plot(final_x[aa:bb], final_y[aa:bb])
             plt.plot(proposed_x, proposed_y, color='red', label='Proposed')
             plt.xlabel('X')
@@ -410,25 +410,30 @@ class RamanSpectrum:
         # # Print the peak parameters
         for i, (amplitude, mean, stddev) in enumerate(peak_params):
             print(f"Peak {i+1}: Amplitude={amplitude}, Mean={mean}, Stddev={stddev}")
+        
+        self.gaussbasedx = x
+        self.gaussbasedy = y - fit_function(x, *params)
 
-        # # Plot the original spectrum and the fitted curve
-        plt.figure(figsize=(8, 6))
-        plt.plot(x, y, label='Original Spectrum')
-        plt.plot(x, fit_function(x, *params), color='red',label='Fitted Curve')
-
-        # # Plot the individual peaks
-        for i, (amplitude, mean, stddev) in enumerate(peak_params):
-            plt.plot(x, gaussian(x, amplitude, mean, stddev), label=f'Peak {i+1}')
-
-        plt.xlabel('X')
-        plt.ylabel('Intensity')
-        plt.legend()
-        plt.show()
-    
         if interactive:
-            pass
-        else:
             return [x, fit_function(x, *params), params, _]
+        else:
+
+            # # Plot the original spectrum and the fitted curve
+            plt.figure(figsize=(8, 6))
+            plt.title(self.metadata['Acquired'])
+            plt.plot(x, y, label='Original Spectrum')
+            # plt.plot(x, fit_function(x, *params), color='red',label='Fitted Curve')
+
+            # # Plot the individual peaks
+            for i, (amplitude, mean, stddev) in enumerate(peak_params):
+                plt.plot(x, gaussian(x, amplitude, mean, stddev), label=f'Peak {i+1}')
+            
+            plt.plot(x, fit_function(x, *params), color='red',label='Fitted Curve')
+            plt.xlabel('X')
+            plt.ylabel('Intensity')
+            plt.legend()
+            plt.show()
+            
 
 
 
