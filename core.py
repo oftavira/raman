@@ -11,6 +11,21 @@ from scipy.optimize import curve_fit
 import ipywidgets as widgets
 from IPython.display import display
 
+
+def gaussian(x, amplitude, mean, stddev):
+    return amplitude * np.exp(-(x - mean) ** 2 / (2 * stddev ** 2))
+
+
+
+# Define the function to fit the entire spectrum
+def fit_function(x, *params):
+    num_peaks = len(params) // 3
+    result = np.zeros_like(x)
+    for i in range(num_peaks):
+        result += gaussian(x, params[i * 3], params[i * 3 + 1], params[i * 3 + 2])
+    return result
+
+
 class RamanSpectrum:
 
     def __init__(self, filepath, x=None,y=None):
@@ -116,6 +131,23 @@ class RamanSpectrum:
 
                     proposed_y = np.polyval(ny, x)
                     proposed_x = x
+                
+                elif method == 'fit_gauss':
+                    chain = la.replace('[','').replace(']','').split(',')
+                    print(type(chain))
+                    print(type(chain[0]))
+                    print(chain[0])
+                    print(chain)
+                    
+                    chain = [int(e) for e in chain]
+
+                    results = self.fitgaussians(pair='raw',initial_guess=chain,interactive=True)
+
+                    final_x = x
+                    final_y = y
+
+                    proposed_x = results[0]
+                    proposed_y = results[1]
                 else:
                     raise Exception("Método no disponible")
             else:
@@ -227,11 +259,14 @@ class RamanSpectrum:
         plt.plot(xp,yp, 'o',color = 'red')
         return xp,yp;
 
-
-# ======================================================================================
-# ====================     P O L I N O M I A L      F I T     ==========================
-# ======================================================================================
-# ======================================================================================
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
 
     def polyfit(self, a,b, mod = "cropped",ord = 3):
@@ -282,49 +317,14 @@ class RamanSpectrum:
         plt.subplots_adjust(hspace=1)
         plt.show()
     
-    def fit_intervals(self,lss,od):
-        x,y = self.plotpoints(lss)
-        fitted = np.polyfit(x, y, od)
-        self.chis = np.polyfit(x, y, od, full=True)
-        self.fitted = fitted
-        # Plotting the first part
-        plt.subplot(2, 1, 1)  # Create subplot 1
-        plt.plot(self.croppedx, self.croppedy)
-        plt.plot(self.croppedx, np.polyval(fitted, self.croppedx))
-        plt.xlim(min(self.croppedx), max(self.croppedx))
-        ef = abs(max(self.croppedy) - min(self.croppedy))/20
-        plt.ylim(min(self.croppedy)-ef, max(self.croppedy)+ef)
-        plt.xlabel("Wavenumber (cm$^{-1}$)")
-        plt.ylabel("Intensity (counts)")
-        plt.title('With baseline')
-        # Plotting the second part
-        plt.subplot(2, 1, 2)  # Create subplot 2
-        self.polylx = self.croppedx
-        fitedcurve = np.polyval(fitted, self.croppedx)
-        self.fitedcurve = fitedcurve
-        self.polyly = (self.croppedy - fitedcurve) + abs(min(self.croppedy - fitedcurve))
-        plt.plot(self.polylx,self.polyly)
-        print(min(self.polyly))
-        plt.xlabel("Wavenumber (cm$^{-1}$)")
-        plt.ylabel("Intensity (counts)")
-        plt.title('Without baseline')
-
-        # Saving both plots in the same file
-        if not os.path.exists(self.sample+'/polyfit'):
-            os.makedirs(self.sample+'/polyfit')
-        plt.savefig(self.sample+"/polyfit/{i}.png".format(i=self.metadata['Date']))
-        plt.subplots_adjust(hspace=1)
-        plt.show()
-
-
-
-
-# ======================================================================================
-# ======================================================================================
-# ======================================================================================
-# ======================================================================================
-    
-    
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
     
     
     def sav_gol(self, x, y, window = 20, order=4, show=True, from_args = False):
@@ -368,6 +368,80 @@ class RamanSpectrum:
         else:
             self.plotnsave(_dir='denoised_and_baselined',_show=False,circles=True,mz=1)
         plt.clf()
+
+
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+    # Define the function to fit the peaks
+    # Perform curve fitting
+    # The * before initial_guess is to unpack the list
+    # The ** before test is to unpack the dictionary
+
+    def fitgaussians(self, pair='raw', initial_guess = [100, 100, 100, 200, 200, 200, 400, 400, 400], interactive = False):
+
+        if pair == 'denoised':
+            x = self.denoisedx
+            y = self.denoisedy
+        elif pair == 'cropped':
+            x = self.croppedx
+            y = self.croppedy
+        elif pair == 'raw':
+            x = self.x
+            y = self.y
+        else:
+            raise Exception("Especifique de donde se obtendrán los datos")
+
+        params, _ = curve_fit(fit_function, x, y, p0=initial_guess)
+
+        # # Extract individual peak parameters
+        num_peaks = len(params) // 3
+        peak_params = []
+
+        for i in range(num_peaks):
+            peak_params.append((params[i * 3], params[i * 3 + 1], params[i * 3 + 2]))
+
+        # # Print the peak parameters
+        for i, (amplitude, mean, stddev) in enumerate(peak_params):
+            print(f"Peak {i+1}: Amplitude={amplitude}, Mean={mean}, Stddev={stddev}")
+
+        # # Plot the original spectrum and the fitted curve
+        plt.figure(figsize=(8, 6))
+        plt.plot(x, y, label='Original Spectrum')
+        plt.plot(x, fit_function(x, *params), color='red',label='Fitted Curve')
+
+        # # Plot the individual peaks
+        for i, (amplitude, mean, stddev) in enumerate(peak_params):
+            plt.plot(x, gaussian(x, amplitude, mean, stddev), label=f'Peak {i+1}')
+
+        plt.xlabel('X')
+        plt.ylabel('Intensity')
+        plt.legend()
+        plt.show()
+    
+        if interactive:
+            pass
+        else:
+            return [x, fit_function(x, *params), params, _]
+
+
+
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+    # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
 
     def baseline(self,degree = 1, show = False, before=False):
         # Fit polynomial baseline
@@ -533,3 +607,39 @@ class RamanSpectrum:
         plt.savefig(self.sample+'/fit/{}.png'.format(self.metadata['Date']))
         self.popt = popt
         plt.clf()
+    
+
+    def fit_intervals(self,lss,od):
+        x,y = self.plotpoints(lss)
+        fitted = np.polyfit(x, y, od)
+        self.chis = np.polyfit(x, y, od, full=True)
+        self.fitted = fitted
+        # Plotting the first part
+        plt.subplot(2, 1, 1)  # Create subplot 1
+        plt.plot(self.croppedx, self.croppedy)
+        plt.plot(self.croppedx, np.polyval(fitted, self.croppedx))
+        plt.xlim(min(self.croppedx), max(self.croppedx))
+        ef = abs(max(self.croppedy) - min(self.croppedy))/20
+        plt.ylim(min(self.croppedy)-ef, max(self.croppedy)+ef)
+        plt.xlabel("Wavenumber (cm$^{-1}$)")
+        plt.ylabel("Intensity (counts)")
+        plt.title('With baseline')
+        # Plotting the second part
+        plt.subplot(2, 1, 2)  # Create subplot 2
+        self.polylx = self.croppedx
+        fitedcurve = np.polyval(fitted, self.croppedx)
+        self.fitedcurve = fitedcurve
+        self.polyly = (self.croppedy - fitedcurve) + abs(min(self.croppedy - fitedcurve))
+        plt.plot(self.polylx,self.polyly)
+        print(min(self.polyly))
+        plt.xlabel("Wavenumber (cm$^{-1}$)")
+        plt.ylabel("Intensity (counts)")
+        plt.title('Without baseline')
+
+        # Saving both plots in the same file
+        if not os.path.exists(self.sample+'/polyfit'):
+            os.makedirs(self.sample+'/polyfit')
+        plt.savefig(self.sample+"/polyfit/{i}.png".format(i=self.metadata['Date']))
+        plt.subplots_adjust(hspace=1)
+        plt.show()
+
