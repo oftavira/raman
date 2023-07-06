@@ -1,3 +1,7 @@
+# Taking the image raman.png and showing the spectrum
+
+![Raman spectrum](raman.jpg)
+
 # raman
 
 Jupyter notebook con un tratamiento de datos especializado en espectroscopía Raman.

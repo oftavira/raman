@@ -8,6 +8,7 @@ __pycache__/
 
 # Images
 *.png
+*.mp4
 
 # Distribution / packaging
 .Python

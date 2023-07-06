@@ -82,7 +82,7 @@ class RamanSpectrum:
      
     
 
-    def interactive(self, x=[],y=[],mod = False, method='sav_gol'):
+    def interactive(self, x=[],y=[],mod = False, method='sav_gol',):
 
         proposed_y = []
         proposed_x = []
@@ -112,8 +112,6 @@ class RamanSpectrum:
         la = widgets.Text(value='100,100,100', description='list_1:')
         lb = widgets.Text(value='b', description='list_2:')
 
-        params = []
-
         # Function to update the plot based on slider values
         def update_plot(freq, amp, x_min, x_max, y_min, y_max,aa=a_text,bb=b_text,la=la,lb=lb):
             if mod:
@@ -125,6 +123,7 @@ class RamanSpectrum:
                     
                     proposed_x = x
                     proposed_y = ny
+                    params=[]
                 elif method == 'poly_fit':
                     final_x = x
                     final_y = y
@@ -133,6 +132,7 @@ class RamanSpectrum:
 
                     proposed_y = np.polyval(ny, x)
                     proposed_x = x
+                    params = []
                 
                 elif method == 'fit_gauss':
                     chain = la.replace('[','').replace(']','').split(',')                    
@@ -283,26 +283,22 @@ class RamanSpectrum:
     # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
 
-    def polyfit(self, a,b, mod = "cropped",ord = 3):
-        
-        x = []
-        y = []
-
-        if mod == "cropped":
-            x_ = self.croppedx
-            y_ = self.croppedy
-        elif mod == "raw":
-            x_ = self.x
-            y_ = self.y
+    def polyfit(self, x=[],y=[], mod = "cropped",ord = 3):
+        if x == [] or y == []:
+            if mod == "cropped":
+                x_ = self.croppedx
+                y_ = self.croppedy
+            elif mod == "raw":
+                x_ = self.x
+                y_ = self.y
+            else:
+                raise Exception("No cropped data")
         else:
-            raise Exception("No cropped data")
+            x_ = x
+            y_ = y
 
-        for x_i, y_i in zip(x_, y_):
-            if x_i < a or x_i > b:
-                x.append(x_i)
-                y.append(y_i)
 
-        fitted = np.polyfit(x, y, ord)
+        fitted = np.polyfit(x_, y_, ord)
 
         self.fitted = fitted
         
