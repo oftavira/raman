@@ -109,8 +109,10 @@ class RamanSpectrum:
         y_min_slider = widgets.FloatSlider(min=ymin, max=ymax, value=ymin, description='Y min:')
         y_max_slider = widgets.FloatSlider(min=ymin, max=ymax, value=ymax, description='Y max:')
 
-        la = widgets.Text(value='a', description='list_1:')
+        la = widgets.Text(value='100,100,100', description='list_1:')
         lb = widgets.Text(value='b', description='list_2:')
+
+        params = []
 
         # Function to update the plot based on slider values
         def update_plot(freq, amp, x_min, x_max, y_min, y_max,aa=a_text,bb=b_text,la=la,lb=lb):
@@ -133,13 +135,10 @@ class RamanSpectrum:
                     proposed_x = x
                 
                 elif method == 'fit_gauss':
-                    chain = la.replace('[','').replace(']','').split(',')
-                    print(type(chain))
-                    print(type(chain[0]))
-                    print(chain[0])
-                    print(chain)
-                    
+                    chain = la.replace('[','').replace(']','').split(',')                    
                     chain = [int(e) for e in chain]
+
+                    print(chain)
 
                     results = self.fitgaussians(pair='raw',initial_guess=chain,interactive=True)
 
@@ -148,10 +147,24 @@ class RamanSpectrum:
 
                     proposed_x = results[0]
                     proposed_y = results[1]
+                    params = results[2]
                 else:
                     raise Exception("Método no disponible")
             else:
-                raise Exception("No se ha modificado el espectro")
+                raise Exception("No se ha modificado el espectro, añada como parametro mod = True (method = sav_gol, poly_fit, fit_gauss)")
+            
+
+            if params == []:
+                pass
+            else:
+                 # We plot the individual gaussians which parameters are stored in params
+                print('Gaussian parameters =====')
+                print(params)
+                print('Gaussian parameters =====')
+                for i in range(len(params)//3):
+                    plt.plot(proposed_x,gaussian(proposed_x,params[3*i],params[3*i + 1],params[3*i + 2]))
+                plt.plot(proposed_x,proposed_y,color='red',label='Proposed')
+
             plt.figure(figsize=(10, 6))
             plt.plot(final_x[aa:bb], final_y[aa:bb])
             plt.plot(proposed_x, proposed_y, color='red', label='Proposed')
@@ -206,6 +219,7 @@ class RamanSpectrum:
             plt.plot(x,y)
         plt.xlabel("Wavenumber (cm$^{-1}$)")
         plt.ylabel("Intensity (counts)")
+        plt.title(self.metadata['Acquired'])
         plt.savefig(name)
         if _show:
             plt.show()
@@ -348,14 +362,14 @@ class RamanSpectrum:
         self.denoisedx = x
         self.denoisedy = self.savgol
 
-        plt.plot(self.denoisedx, self.denoisedy)
+        plt.plot(self.denoisedx, self.denoisedy, 'o', markersize=0.5)
         
         self.basedx = self.denoisedx
         self.basedy = self.denoisedy
         
         plt.xlabel("Wavenumber (cm$^{-1}$)")
         plt.ylabel("Intensity (counts)")
-        plt.title('Denoised')
+        plt.title(self.metadata['Acquired'])
 
         if not os.path.exists(self.sample+'/denoised'):
             os.makedirs(self.sample+'/denoised')
@@ -407,17 +421,37 @@ class RamanSpectrum:
         for i in range(num_peaks):
             peak_params.append((params[i * 3], params[i * 3 + 1], params[i * 3 + 2]))
 
+        # Lambda function to round a float number to an integer
+
+        round2int = lambda x: int(round(x))
+
         # # Print the peak parameters
+
+        lss = []
         for i, (amplitude, mean, stddev) in enumerate(peak_params):
             print(f"Peak {i+1}: Amplitude={amplitude}, Mean={mean}, Stddev={stddev}")
-        
+            
+            lss.append(round2int(amplitude))
+            lss.append(round2int(mean))
+            lss.append(round2int(stddev))
+            
+        # # Print the fitted function parameters
+        print("\n")        
+        print(lss)
+        print("\n")
+
         self.gaussbasedx = x
         self.gaussbasedy = y - fit_function(x, *params)
 
-        if interactive:
-            return [x, fit_function(x, *params), params, _]
-        else:
+        self.multiparams = params
+        self.fitedparamsx = x
+        self.fitedparamsy = fit_function(x, *params)
 
+        if interactive:
+            
+            return [x, fit_function(x, *params), params, _]
+        
+        else:
             # # Plot the original spectrum and the fitted curve
             plt.figure(figsize=(8, 6))
             plt.title(self.metadata['Acquired'])
