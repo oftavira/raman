@@ -426,6 +426,12 @@ class RamanSpectrum:
 # ///////////////**///////////////////////////////////////////////////////////////////////////////////////////////////////
 
     def polyfit(self, x=[],y=[], mod = "raw",ord = 3):
+
+        '''
+        The method provides a polyfit from numpy
+        '''
+
+
         if x == [] or y == []:
             if mod == "cropped":
                 x_ = self.croppedx
@@ -505,18 +511,13 @@ class RamanSpectrum:
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@
     
     
-    def sav_gol(self, x, y, window = 20, order=4, show=True, from_args = False):
-        """
-        Takes the x and y values and applies a Savitzky-Golay filter
-        sets self.denoisedx and self.denoisedy to the denoised values
-        """
-
-        if from_args:
-            x = x
-            y = y
-        else:
+    def sav_gol(self, x=[], y=[], window = 20, order=4, show=True):
+        if x == [] or y == []:
             x = self.x
             y = self.y
+        else:
+            x = x
+            y = y
 
         self.denoisedx = []
         self.denoisedy = []
@@ -546,6 +547,7 @@ class RamanSpectrum:
         else:
             self.plotnsave(_dir='denoised_and_baselined',_show=False,circles=True,mz=1)
         plt.clf()
+            
 
 
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
