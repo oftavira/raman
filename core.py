@@ -1,32 +1,50 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
 import os
 import re
-
 from scipy.signal import savgol_filter
 from scipy.optimize import curve_fit
-
-
 import ipywidgets as widgets
 from IPython.display import display
+import os
+
+class ramanfrom:
+    
+    def __init__(self, path='./muestras/carpeta', extetion= '.txt'):
+        ramanspecs = {}
+        files = []
+        for r, d, f in os.walk(path):
+            for file in f:
+                if extetion in file:
+                    raman = RamanSpectrum(r+'/'+file)
+                    files.append(r+'/'+file)
+                    ramanspecs[raman.metadata['Acquired']] = raman
+
+        del r, d, f, file, path, extetion
+        self.path = path
+        self.files = files
+        self.ramanspecs = ramanspecs
 
 
 def gaussian(x, amplitude, mean, stddev):
     return amplitude * np.exp(-(x - mean) ** 2 / (2 * stddev ** 2))
 
 
-
 # Define the function to fit the entire spectrum
-def fit_function(x, *params):
+def fit_gaussians(x, *params):
     num_peaks = len(params) // 3
     result = np.zeros_like(x)
     for i in range(num_peaks):
         result += gaussian(x, params[i * 3], params[i * 3 + 1], params[i * 3 + 2])
     return result
 
-
 class RamanSpectrum:
+
+    def __repr__(self):
+        return 'RamanSpectrum (repr): ' + self.filepath
+
+    def __str__(self):
+        return 'RamanSpectrum (str): ' + self.filepath
 
     def __init__(self, filepath, x=None,y=None):
         self.filepath = filepath
@@ -408,7 +426,7 @@ class RamanSpectrum:
         else:
             raise Exception("Especifique de donde se obtendrán los datos")
 
-        params, _ = curve_fit(fit_function, x, y, p0=initial_guess)
+        params, _ = curve_fit(fit_gaussians, x, y, p0=initial_guess)
 
         # # Extract individual peak parameters
         num_peaks = len(params) // 3
@@ -437,35 +455,33 @@ class RamanSpectrum:
         print("\n")
 
         self.gaussbasedx = x
-        self.gaussbasedy = y - fit_function(x, *params)
+        self.gaussbasedy = y - fit_gaussians(x, *params)
 
         self.multiparams = params
         self.fitedparamsx = x
-        self.fitedparamsy = fit_function(x, *params)
+        self.fitedparamsy = fit_gaussians(x, *params)
 
         if interactive:
             
-            return [x, fit_function(x, *params), params, _]
+            return [x, fit_gaussians(x, *params), params, _]
         
         else:
             # # Plot the original spectrum and the fitted curve
             plt.figure(figsize=(8, 6))
             plt.title(self.metadata['Acquired'])
             plt.plot(x, y, label='Original Spectrum')
-            # plt.plot(x, fit_function(x, *params), color='red',label='Fitted Curve')
+            # plt.plot(x, fit_gaussians(x, *params), color='red',label='Fitted Curve')
 
             # # Plot the individual peaks
             for i, (amplitude, mean, stddev) in enumerate(peak_params):
                 plt.plot(x, gaussian(x, amplitude, mean, stddev), label=f'Peak {i+1}')
             
-            plt.plot(x, fit_function(x, *params), color='red',label='Fitted Curve')
+            plt.plot(x, fit_gaussians(x, *params), color='red',label='Fitted Curve')
             plt.xlabel('X')
             plt.ylabel('Intensity')
             plt.legend()
             plt.show()
             
-
-
 
     # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
     # OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
