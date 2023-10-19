@@ -9,7 +9,11 @@ from IPython.display import display
 import os
 
 class ramanfrom:
-    
+    # ramanspecs : Raman Spectrums with the date and time as key and RamanSpectrum as value. 
+    # e.g. :{'20.06.2023 12:33:31': RamanSpectrum (repr): ./muestras/billete_e/Organic_14.txt}
+    # note that this Raman Spectrum is an object and it has methods such as fit or plot according
+    # to the next class in this document.
+
     def __init__(self, path='./muestras/carpeta', extetion= '.txt'):
         if path == '':
             raise Exception(" Ingrese una ruta a la carpeta que contiene los espectros: Ej: './muestras/carpeta' ")
@@ -17,6 +21,7 @@ class ramanfrom:
             ramanspecs = {}
             files = []
             ramans = []
+
             for r, d, f in os.walk(path):
                 for file in f:
                     if extetion in file:
