@@ -34,15 +34,12 @@ class ramanfrom:
             self.ramans = ramans
             self.files = files
             self.ramanspecs = ramanspecs
-    
-    def date(self, date):
-        self.date = date
         
     def pop(self, name=' '):
         if name == ' ':
             raise Exception("Especifique el nombre del espectro a extraer")
         else:
-            self.ramanspecs.pop(self.date + name)
+            self.ramanspecs.pop(name)
     
     def randomspec(self):
         return self.ramanspecs[np.random.choice(list(self.ramanspecs.keys()))]

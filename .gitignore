@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 __media__/
 local/
+nsno/
 # This folder contains all the generated files of the analysis
 # TODO: Change this to a specific location depending on the sample
 Organic/
