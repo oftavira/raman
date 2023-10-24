@@ -693,17 +693,26 @@ class RamanSpectrum:
 
 
 
-    def baseline(self,degree = 1, show = False, before=False):
-        # Fit polynomial baseline
-
-        xfit = self.denoisedx[:5] + self.denoisedx[-5:]
-        self.a = list(self.denoisedy[:5])
-        self.b = list(self.denoisedy[-5:])
+    def baseline(self,x = [], y = [], degree = 1, show = False, before=False):
         
-        print(self.a)
-        print(self.b)
+        # Fit polynomial baseline
+        if x == [] or y == []:
+            ap = list(self.denoisedx[:5])
+            bp = list(self.denoisedx[-5:])
 
-        yfit = self.a + self.b
+            xfit = ap + bp
+
+            self.a = list(self.denoisedy[:5])
+            self.b = list(self.denoisedy[-5:])
+        
+            print(self.a)
+            print(self.b)
+
+            yfit = self.a + self.b
+        else:
+            xfit = x
+            yfit = y
+
         print(type(self.denoisedx),type(self.denoisedy))
         print('The lenghts',len(xfit),len(yfit))
 
@@ -782,159 +791,159 @@ class RamanSpectrum:
 
     
 
-    # Define the function as the sum of three Gaussian curves
-    def gaussian(self, x, amplitude, center, sigma):
-        return amplitude * np.exp(-(x - center)**2 / (2 * sigma**2))
+    # # Define the function as the sum of three Gaussian curves
+    # def gaussian(self, x, amplitude, center, sigma):
+    #     return amplitude * np.exp(-(x - center)**2 / (2 * sigma**2))
 
-    def multi_peak_fit(self, x, *params):
-        num_peaks = len(params) // 3
-        y_fit = np.zeros_like(x)
+    # def multi_peak_fit(self, x, *params):
+    #     num_peaks = len(params) // 3
+    #     y_fit = np.zeros_like(x)
 
-        for i in range(num_peaks):
-            amplitude, center, sigma = params[i*3 : (i+1)*3]
-            y_fit += self.gaussian(x, amplitude, center, sigma)
-        return y_fit
+    #     for i in range(num_peaks):
+    #         amplitude, center, sigma = params[i*3 : (i+1)*3]
+    #         y_fit += self.gaussian(x, amplitude, center, sigma)
+    #     return y_fit
 
     
-    def get_fitting(self, f2 = 0.5, f3 = 0.3 , c1 = 520, c2 = 500, c3 = 480, s1 = 10, s2 = 20, s3 = 40 ,show = False):
-        x = np.array(self.basedx)
-        y = np.array(self.basedy)
+    # def get_fitting(self, f2 = 0.5, f3 = 0.3 , c1 = 520, c2 = 500, c3 = 480, s1 = 10, s2 = 20, s3 = 40 ,show = False):
+    #     x = np.array(self.basedx)
+    #     y = np.array(self.basedy)
 
-        yspec = max(y)
-        yspec2 = yspec*f2
-        yspec3 = yspec*f3
+    #     yspec = max(y)
+    #     yspec2 = yspec*f2
+    #     yspec3 = yspec*f3
 
-        # Perform the multi-peak fitting
-        # initial_guess = [yspec3, 450, 100, yspec2, 510, 10, yspec, 520, 10]
-        initial_guess = [yspec3, c3, s3, yspec2, c2, s2, yspec, c1, s1]   # Initial guess for parameters: [amplitude1, center1, sigma1, amplitude2, center2, sigma2, amplitude3, center3, sigma3]
+    #     # Perform the multi-peak fitting
+    #     # initial_guess = [yspec3, 450, 100, yspec2, 510, 10, yspec, 520, 10]
+    #     initial_guess = [yspec3, c3, s3, yspec2, c2, s2, yspec, c1, s1]   # Initial guess for parameters: [amplitude1, center1, sigma1, amplitude2, center2, sigma2, amplitude3, center3, sigma3]
         
-        if not os.path.exists(self.sample+'/fit'):
-                os.makedirs(self.sample+'/fit')
+    #     if not os.path.exists(self.sample+'/fit'):
+    #             os.makedirs(self.sample+'/fit')
 
-        popt, pcov = curve_fit(self.multi_peak_fit, x, y, p0=initial_guess)
+    #     popt, pcov = curve_fit(self.multi_peak_fit, x, y, p0=initial_guess)
 
-        # Extract the optimized parameters
-        amplitudes = popt[0::3]
-        centers = popt[1::3]
-        sigmas = popt[2::3]
+    #     # Extract the optimized parameters
+    #     amplitudes = popt[0::3]
+    #     centers = popt[1::3]
+    #     sigmas = popt[2::3]
 
-        for i in range(0,3):
-            amp,cen,sig = popt[i*3:(i+1)*3]
+    #     for i in range(0,3):
+    #         amp,cen,sig = popt[i*3:(i+1)*3]
 
-        self.fit_props = popt
+    #     self.fit_props = popt
 
-        # Print the results
+    #     # Print the results
 
-        print('Amplitudes: {}'.format(amplitudes))
-        print('Centers: {}'.format(centers))
-        print('Sigmas: {}'.format(sigmas))
+    #     print('Amplitudes: {}'.format(amplitudes))
+    #     print('Centers: {}'.format(centers))
+    #     print('Sigmas: {}'.format(sigmas))
 
-        # Generate the fitted curve
-        x_fit = np.linspace(x.min(), x.max(), 1000)
-        y_fit = self.multi_peak_fit(x_fit, *popt)
-        # Plot the original data and the fitted curve
-        plt.plot(x, y, 'bo', label='Original Data')
-        plt.plot(x_fit, y_fit, 'r-', label='Fitted Curve')
-        self.x_fit = x_fit
-        self.y_fit = y_fit
-        plt.legend()
-        plt.xlabel('wavenumber (cm$^{-1}$)')
-        plt.ylabel('Counts (a.u.)')
-        if show:
-            plt.show()
-        plt.savefig(self.sample+'/fit/{}.png'.format(self.metadata['Date']))
-        self.popt = popt
-        plt.clf()
+    #     # Generate the fitted curve
+    #     x_fit = np.linspace(x.min(), x.max(), 1000)
+    #     y_fit = self.multi_peak_fit(x_fit, *popt)
+    #     # Plot the original data and the fitted curve
+    #     plt.plot(x, y, 'bo', label='Original Data')
+    #     plt.plot(x_fit, y_fit, 'r-', label='Fitted Curve')
+    #     self.x_fit = x_fit
+    #     self.y_fit = y_fit
+    #     plt.legend()
+    #     plt.xlabel('wavenumber (cm$^{-1}$)')
+    #     plt.ylabel('Counts (a.u.)')
+    #     if show:
+    #         plt.show()
+    #     plt.savefig(self.sample+'/fit/{}.png'.format(self.metadata['Date']))
+    #     self.popt = popt
+    #     plt.clf()
     
-    def getgaussfit(self, x,y):
-        self.gx = x
-        self.gy = y
+    # def getgaussfit(self, x,y):
+    #     self.gx = x
+    #     self.gy = y
         
 
-    def get_2_fitting(self,sca = 30, f2 = 0.5,c1 = 520,c2 = 500,s1 = 10,s2 = 20,show = False, case = 'crop'):
-        if case == 'crop':
-            x = np.array(self.croppedx)
-            y = np.array(np.array(self.croppedy)-sca)
-        else:
-            raise AssertionError("Must select c x and y")
+    # def get_2_fitting(self,sca = 30, f2 = 0.5,c1 = 520,c2 = 500,s1 = 10,s2 = 20,show = False, case = 'crop'):
+    #     if case == 'crop':
+    #         x = np.array(self.croppedx)
+    #         y = np.array(np.array(self.croppedy)-sca)
+    #     else:
+    #         raise AssertionError("Must select c x and y")
 
-        yspec = max(y)
-        yspec2 = yspec*f2
+    #     yspec = max(y)
+    #     yspec2 = yspec*f2
 
-        # Perform the multi-peak fitting
-        # initial_guess = [yspec3, 450, 100, yspec2, 510, 10, yspec, 520, 10]
-        initial_guess = [yspec2, c2, s2, yspec, c1, s1]   # Initial guess for parameters: [amplitude1, center1, sigma1, amplitude2, center2, sigma2, amplitude3, center3, sigma3]
+    #     # Perform the multi-peak fitting
+    #     # initial_guess = [yspec3, 450, 100, yspec2, 510, 10, yspec, 520, 10]
+    #     initial_guess = [yspec2, c2, s2, yspec, c1, s1]   # Initial guess for parameters: [amplitude1, center1, sigma1, amplitude2, center2, sigma2, amplitude3, center3, sigma3]
         
-        if not os.path.exists(self.sample+'/fit'):
-                os.makedirs(self.sample+'/fit')
+    #     if not os.path.exists(self.sample+'/fit'):
+    #             os.makedirs(self.sample+'/fit')
 
-        popt, pcov = curve_fit(self.multi_peak_fit, x, y, p0=initial_guess)
+    #     popt, pcov = curve_fit(self.multi_peak_fit, x, y, p0=initial_guess)
 
-        # Extract the optimized parameters
-        amplitudes = popt[0::2]
-        centers = popt[1::2]
-        sigmas = popt[2::2]
+    #     # Extract the optimized parameters
+    #     amplitudes = popt[0::2]
+    #     centers = popt[1::2]
+    #     sigmas = popt[2::2]
 
-        for i in range(0,2):
-            amp,cen,sig = popt[i*3:(i+1)*3]
+    #     for i in range(0,2):
+    #         amp,cen,sig = popt[i*3:(i+1)*3]
 
-        self.fit_props = popt
+    #     self.fit_props = popt
 
-        # Print the results
+    #     # Print the results
 
-        print('Amplitudes: {}'.format(amplitudes))
-        print('Centers: {}'.format(centers))
-        print('Sigmas: {}'.format(sigmas))
+    #     print('Amplitudes: {}'.format(amplitudes))
+    #     print('Centers: {}'.format(centers))
+    #     print('Sigmas: {}'.format(sigmas))
 
-        # Generate the fitted curve
-        x_fit = np.linspace(x.min(), x.max(), 1000)
-        y_fit = self.multi_peak_fit(x_fit, *popt)
-        # Plot the original data and the fitted curve
-        plt.plot(x, y, 'bo', label='Original Data')
-        plt.plot(x_fit, y_fit, 'r-', label='Fitted Curve')
-        self.x_fit = x_fit
-        self.y_fit = y_fit
-        plt.legend()
-        plt.xlabel('wavenumber (cm$^{-1}$)')
-        plt.ylabel('Counts (a.u.)')
-        if show:
-            plt.show()
-        plt.savefig(self.sample+'/fit/{}.png'.format(self.metadata['Date']))
-        self.popt = popt
-        plt.clf()
+    #     # Generate the fitted curve
+    #     x_fit = np.linspace(x.min(), x.max(), 1000)
+    #     y_fit = self.multi_peak_fit(x_fit, *popt)
+    #     # Plot the original data and the fitted curve
+    #     plt.plot(x, y, 'bo', label='Original Data')
+    #     plt.plot(x_fit, y_fit, 'r-', label='Fitted Curve')
+    #     self.x_fit = x_fit
+    #     self.y_fit = y_fit
+    #     plt.legend()
+    #     plt.xlabel('wavenumber (cm$^{-1}$)')
+    #     plt.ylabel('Counts (a.u.)')
+    #     if show:
+    #         plt.show()
+    #     plt.savefig(self.sample+'/fit/{}.png'.format(self.metadata['Date']))
+    #     self.popt = popt
+    #     plt.clf()
     
 
-    def fit_intervals(self,lss,od):
-        x,y = self.plotpoints(lss)
-        fitted = np.polyfit(x, y, od)
-        self.chis = np.polyfit(x, y, od, full=True)
-        self.fitted = fitted
-        # Plotting the first part
-        plt.subplot(2, 1, 1)  # Create subplot 1
-        plt.plot(self.croppedx, self.croppedy)
-        plt.plot(self.croppedx, np.polyval(fitted, self.croppedx))
-        plt.xlim(min(self.croppedx), max(self.croppedx))
-        ef = abs(max(self.croppedy) - min(self.croppedy))/20
-        plt.ylim(min(self.croppedy)-ef, max(self.croppedy)+ef)
-        plt.xlabel("Wavenumber (cm$^{-1}$)")
-        plt.ylabel("Intensity (counts)")
-        plt.title('With baseline')
-        # Plotting the second part
-        plt.subplot(2, 1, 2)  # Create subplot 2
-        self.polylx = self.croppedx
-        fitedcurve = np.polyval(fitted, self.croppedx)
-        self.fitedcurve = fitedcurve
-        self.polyly = (self.croppedy - fitedcurve) + abs(min(self.croppedy - fitedcurve))
-        plt.plot(self.polylx,self.polyly)
-        print(min(self.polyly))
-        plt.xlabel("Wavenumber (cm$^{-1}$)")
-        plt.ylabel("Intensity (counts)")
-        plt.title('Without baseline')
+    # def fit_intervals(self,lss,od):
+    #     x,y = self.plotpoints(lss)
+    #     fitted = np.polyfit(x, y, od)
+    #     self.chis = np.polyfit(x, y, od, full=True)
+    #     self.fitted = fitted
+    #     # Plotting the first part
+    #     plt.subplot(2, 1, 1)  # Create subplot 1
+    #     plt.plot(self.croppedx, self.croppedy)
+    #     plt.plot(self.croppedx, np.polyval(fitted, self.croppedx))
+    #     plt.xlim(min(self.croppedx), max(self.croppedx))
+    #     ef = abs(max(self.croppedy) - min(self.croppedy))/20
+    #     plt.ylim(min(self.croppedy)-ef, max(self.croppedy)+ef)
+    #     plt.xlabel("Wavenumber (cm$^{-1}$)")
+    #     plt.ylabel("Intensity (counts)")
+    #     plt.title('With baseline')
+    #     # Plotting the second part
+    #     plt.subplot(2, 1, 2)  # Create subplot 2
+    #     self.polylx = self.croppedx
+    #     fitedcurve = np.polyval(fitted, self.croppedx)
+    #     self.fitedcurve = fitedcurve
+    #     self.polyly = (self.croppedy - fitedcurve) + abs(min(self.croppedy - fitedcurve))
+    #     plt.plot(self.polylx,self.polyly)
+    #     print(min(self.polyly))
+    #     plt.xlabel("Wavenumber (cm$^{-1}$)")
+    #     plt.ylabel("Intensity (counts)")
+    #     plt.title('Without baseline')
 
-        # Saving both plots in the same file
-        if not os.path.exists(self.sample+'/polyfit'):
-            os.makedirs(self.sample+'/polyfit')
-        plt.savefig(self.sample+"/polyfit/{i}.png".format(i=self.metadata['Date']))
-        plt.subplots_adjust(hspace=1)
-        plt.show()
+    #     # Saving both plots in the same file
+    #     if not os.path.exists(self.sample+'/polyfit'):
+    #         os.makedirs(self.sample+'/polyfit')
+    #     plt.savefig(self.sample+"/polyfit/{i}.png".format(i=self.metadata['Date']))
+    #     plt.subplots_adjust(hspace=1)
+    #     plt.show()
 
