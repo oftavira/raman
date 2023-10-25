@@ -18,28 +18,28 @@ class ramanfrom:
         if path == '':
             raise Exception(" Ingrese una ruta a la carpeta que contiene los espectros: Ej: './muestras/carpeta' ")
         else:
-            ramanspecs = {}
-            files = []
-            ramans = []
-
+            # TODO: Improve the accesibility of the files
+            ramanspec_dict = {}
+            ramanspec_index = {}
+            count = 0
+            
             for r, d, f in os.walk(path):
                 for file in f:
                     if extetion in file:
-                        raman = RamanSpectrum(r+'/'+file)
-                        files.append(r+'/'+file)
-                        ramans.append(raman)
-                        ramanspecs[raman.metadata['Acquired']] = raman
-
+                        # TODO: Reasign count when a file was deleted
+                        raman_object = RamanSpectrum(r+'/'+file)
+                        raman_object.next2title = '_index : ' + str(count)
+                        ramanspec_index[count] = raman_object
+                        ramanspec_dict[raman_object.metadata['Acquired']] = raman_object
+                        count += 1 
             self.path = path
-            self.ramans = ramans
-            self.files = files
-            self.ramanspecs = ramanspecs
-        
-    def pop(self, name=' '):
-        if name == ' ':
-            raise Exception("Especifique el nombre del espectro a extraer")
-        else:
-            self.ramanspecs.pop(name)
+            self.raman_index = ramanspec_index
+            self.raman_dict = ramanspec_dict
+
+    def pop(self, index):
+        name = self.raman_index[index]
+        self.raman_dict.pop(name.metadata['Acquired'])
+        self.raman_index.pop(index)
     
     def randomspec(self):
         return self.ramanspecs[np.random.choice(list(self.ramanspecs.keys()))]
@@ -81,7 +81,8 @@ class RamanSpectrum:
     def __str__(self):
         return 'RamanSpectrum (str): ' + self.filepath
 
-    def __init__(self, filepath, x=None,y=None):
+    def __init__(self, filepath, x=None,y=None, next2title = ' '):
+        self.next2title = next2title
         self.filepath = filepath
         self.metadata = {}
         self.props = {}
@@ -335,7 +336,7 @@ class RamanSpectrum:
             plt.plot(x,y)
         plt.xlabel("Wavenumber (cm$^{-1}$)")
         plt.ylabel("Intensity (counts)")
-        plt.title(self.metadata['Acquired'])
+        plt.title(self.metadata['Acquired'] + self.next2title)
         plt.savefig(name)
         if _show:
             plt.show()
@@ -513,7 +514,7 @@ class RamanSpectrum:
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@
     
     
-    def sav_gol(self, x=[], y=[], window = 20, order=4, show=True):
+    def sav_gol(self, window = 20, order=4, x=[], y=[],show=True):
         if x == [] or y == []:
             x = self.x
             y = self.y
@@ -691,7 +692,7 @@ class RamanSpectrum:
 # @@@@@@@@@@@@@@@@@@@@@%#&@@@@@@@@@@@@@@@@@@@@@@@&#&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&* *&@@@@@@
 
 
-
+    # TODO: Avoid innecesary parameters such as denoise
 
     def baseline(self,x = [], y = [], degree = 1, show = False, before=False):
         
@@ -713,23 +714,23 @@ class RamanSpectrum:
             xfit = x
             yfit = y
 
-        print(type(self.denoisedx),type(self.denoisedy))
+        print(type(self.denoisedx),type(self.croppedy))
         print('The lenghts',len(xfit),len(yfit))
 
         coefficients = np.polyfit(xfit, yfit, degree)
-        baseline = np.polyval(coefficients, self.denoisedx)
+        baseline = np.polyval(coefficients, self.croppedx)
 
         # Plot the original signal and the baseline
-        # plt.plot(self.denoisedx, self.denoisedy, label='Original Signal')
-        new_zero = abs(min(self.denoisedy - baseline))
+        # plt.plot(self.croppedx, self.croppedy, label='Original Signal')
+        new_zero = abs(min(self.croppedy - baseline))
         if before:
-            plt.plot(self.denoisedx, (self.croppedy + new_zero)  , label='baselined')
-            plt.plot(self.denoisedx, baseline, label='Baseline')
+            plt.plot(self.croppedx, (self.croppedy + new_zero)  , label='baselined')
+            plt.plot(self.croppedx, baseline, label='Baseline')
         else:
-            plt.plot(self.denoisedx, (self.denoisedy + new_zero), label='baselined')
-            plt.plot(self.denoisedx, baseline, label='Baseline')
-        self.basedx = self.denoisedx
-        self.basedy = (self.denoisedy + new_zero) - baseline
+            plt.plot(self.croppedx, (self.croppedy + new_zero), label='baselined')
+            plt.plot(self.croppedx, baseline, label='Baseline')
+        self.basedx = self.croppedx
+        self.basedy = (self.croppedy + new_zero) - baseline
         # plt.plot(self.denoisedx, baseline, label='Baseline')
         plt.legend()
         plt.xlabel('wavenumber (cm$^{-1}$)')
