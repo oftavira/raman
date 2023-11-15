@@ -12,6 +12,9 @@ Organic/
 # C extensions
 *.so
 
+# Ignoring all folders starting with the regex "ign_"
+ign_*/
+
 # Images
 *.png
 *.mp4
