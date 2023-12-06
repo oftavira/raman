@@ -8,13 +8,23 @@ import ipywidgets as widgets
 from IPython.display import display
 import os
 
+def gaussian(x, amplitude, mean, stddev):
+    return amplitude * np.exp(-(x - mean) ** 2 / (2 * stddev ** 2))
+
+def fit_gaussians(x, *params):
+    num_peaks = len(params) // 3
+    result = np.zeros_like(x)
+    for i in range(num_peaks):
+        result += gaussian(x, params[i * 3], params[i * 3 + 1], params[i * 3 + 2])
+    return result
+
 class ramanfrom:
     # ramanspecs : Raman Spectrums with the date and time as key and RamanSpectrum as value. 
     # e.g. :{'20.06.2023 12:33:31': RamanSpectrum (repr): ./muestras/billete_e/Organic_14.txt}
     # note that this Raman Spectrum is an object and it has methods such as fit or plot according
     # to the next class in this document.
 
-    def __init__(self, path='./muestras/carpeta', extetion= '.txt'):
+    def __init__(self, path='', extetion= '.txt'):
         if path == '':
             raise Exception(" Ingrese una ruta a la carpeta que contiene los espectros: Ej: './muestras/carpeta' ")
         else:
@@ -42,36 +52,8 @@ class ramanfrom:
         self.raman_index.pop(index)
     
     def randomspec(self):
-        return self.ramanspecs[np.random.choice(list(self.ramanspecs.keys()))]
+        return self.raman_dict[np.random.choice(list(self.raman_dict.keys()))]
     
-    def fit(self, method = 'nomethod', window = 30, ord=5,initial_guess = [100, 100, 100]):
-        if method == 'nomethod':
-            raise Exception("Especifique el método a utilizar")
-        else:
-            if method=='sav_gol':
-                for k,v in self.ramanspecs.items():
-                    pass
-            elif method=='poly_fit':
-                for k,v in self.ramanspecs.items():
-                    pass
-            elif method=='fit_gauss':
-                for k,v in self.ramanspecs.items():
-                    pass
-            else:
-                raise Exception("Método no disponible")
-
-
-def gaussian(x, amplitude, mean, stddev):
-    return amplitude * np.exp(-(x - mean) ** 2 / (2 * stddev ** 2))
-
-
-# Define the function to fit the entire spectrum
-def fit_gaussians(x, *params):
-    num_peaks = len(params) // 3
-    result = np.zeros_like(x)
-    for i in range(num_peaks):
-        result += gaussian(x, params[i * 3], params[i * 3 + 1], params[i * 3 + 2])
-    return result
 
 class RamanSpectrum:
 
@@ -81,7 +63,7 @@ class RamanSpectrum:
     def __str__(self):
         return 'RamanSpectrum (str): ' + self.filepath
 
-    def __init__(self, filepath, x=None,y=None, next2title = ' '):
+    def __init__(self, filepath, x=None,y=None, next2title = ' ', create_media = False):
         self.next2title = next2title
         self.filepath = filepath
         self.metadata = {}
@@ -104,14 +86,16 @@ class RamanSpectrum:
         self.data = np.loadtxt(lines[len(self.metadata):])
         self.x = self.data[:,0]
         self.y = self.data[:,1]
+        self.normalized_y = self.y/max(self.y)
 
         self.acquired = self.metadata['Acquired']
         self.title = self.metadata['Title'].replace(' ','_')
 
         self.sample = self.title + '/' + self.acquired
 
-        if not os.path.exists(self.sample):
-            os.makedirs(self.sample)
+        if create_media:
+            if not os.path.exists(self.sample):
+                os.makedirs(self.sample)
 
         for e in self.data:
             self.dictcoords[e[0]] = e[1]
@@ -119,6 +103,15 @@ class RamanSpectrum:
         "self.metadata"
         "self.dictcoords"
         "self.metakeys"
+    
+    
+    
+    def plot_normalized(self):
+        plt.plot(self.x,self.normalized_y)
+        plt.xlabel("Wavenumber (cm$^{-1}$)")
+        plt.ylabel("Intensity (counts)")
+        plt.title(self.metadata['Acquired'] + self.next2title)
+        plt.show()
     
     def setprops(self,prop, name):
         self.props[name] = prop
@@ -163,7 +156,7 @@ class RamanSpectrum:
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    
 
-    def interactive(self, x=[],y=[],mod = False, method='sav_gol',):
+    def interactive(self, x=[],y=[], modificate = False, method='sav_gol',):
 
         proposed_y = []
         proposed_x = []
@@ -190,12 +183,12 @@ class RamanSpectrum:
         y_min_slider = widgets.FloatSlider(min=ymin, max=ymax, value=ymin, description='Y min:')
         y_max_slider = widgets.FloatSlider(min=ymin, max=ymax, value=ymax, description='Y max:')
 
-        la = widgets.Text(value='100,100,100', description='list_1:')
+        la = widgets.Text(value='[400,500,30,200,2000,20]', description='Fit Gauss?:')
         lb = widgets.Text(value='b', description='list_2:')
 
         # Function to update the plot based on slider values
         def update_plot(freq, amp, x_min, x_max, y_min, y_max,aa=a_text,bb=b_text,la=la,lb=lb):
-            if mod:
+            if modificate:
                 if method == 'sav_gol':
                     final_x = x
                     final_y = y
@@ -232,7 +225,7 @@ class RamanSpectrum:
                 else:
                     raise Exception("Método no disponible")
             else:
-                raise Exception("No se ha modificado el espectro, añada como parametro mod = True (method = sav_gol, poly_fit, fit_gauss)")
+                raise Exception("No se ha modificado el espectro, añada como parametro modificate = True en la funcion (method = sav_gol, poly_fit, fit_gauss)")
             
 
             if params == []:
