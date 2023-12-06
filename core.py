@@ -8,15 +8,18 @@ import ipywidgets as widgets
 from IPython.display import display
 import os
 
+# TODO: Static methods for the class RamanSpectrum
+
 def gaussian(x, amplitude, mean, stddev):
     return amplitude * np.exp(-(x - mean) ** 2 / (2 * stddev ** 2))
 
-def fit_gaussians(x, *params):
+def multi_gauss(x, *params):
     num_peaks = len(params) // 3
     result = np.zeros_like(x)
     for i in range(num_peaks):
         result += gaussian(x, params[i * 3], params[i * 3 + 1], params[i * 3 + 2])
     return result
+
 
 class ramanfrom:
     # ramanspecs : Raman Spectrums with the date and time as key and RamanSpectrum as value. 
@@ -592,7 +595,7 @@ class RamanSpectrum:
         else:
             raise Exception("Especifique de donde se obtendrán los datos")
 
-        params, _ = curve_fit(fit_gaussians, x, y, p0=initial_guess)
+        params, _ = curve_fit(multi_gauss, x, y, p0=initial_guess)
 
         # # Extract individual peak parameters
         num_peaks = len(params) // 3
@@ -621,28 +624,28 @@ class RamanSpectrum:
         print("\n")
 
         self.gaussbasedx = x
-        self.gaussbasedy = y - fit_gaussians(x, *params)
+        self.gaussbasedy = y - multi_gauss(x, *params)
 
         self.multiparams = params
         self.fitedparamsx = x
-        self.fitedparamsy = fit_gaussians(x, *params)
+        self.fitedparamsy = multi_gauss(x, *params)
 
         if interactive:
             
-            return [x, fit_gaussians(x, *params), params, _]
+            return [x, multi_gauss(x, *params), params, _]
         
         else:
             # # Plot the original spectrum and the fitted curve
             plt.figure(figsize=(8, 6))
             plt.title(self.metadata['Acquired'])
             plt.plot(x, y, label='Original Spectrum')
-            # plt.plot(x, fit_gaussians(x, *params), color='red',label='Fitted Curve')
+            # plt.plot(x, multi_gauss(x, *params), color='red',label='Fitted Curve')
 
             # # Plot the individual peaks
             for i, (amplitude, mean, stddev) in enumerate(peak_params):
                 plt.plot(x, gaussian(x, amplitude, mean, stddev), label=f'Peak {i+1}')
             
-            plt.plot(x, fit_gaussians(x, *params), color='red',label='Fitted Curve')
+            plt.plot(x, multi_gauss(x, *params), color='red',label='Fitted Curve')
             plt.xlabel('X')
             plt.ylabel('Intensity')
             plt.legend()
