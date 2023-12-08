@@ -1,0 +1,4760 @@
+
+415cm-1 
+Phosphatidylinositol 
+71 
+ 
+418cm-1 
+Cholesterol 
+71 
+ 
+428cm-1 
+Symmetric stretching vibration of ν2 PO4
+3-(phosphate 
+of HA) 
+50 
+ 
+429cm-1 
+Cholesterol, cholesterol ester 
+71 
+ 
+445cm-1 
+N-C-S stretch (one of three thiocyanate peaks, with 
+2095 & 735 cm-1) 
+104 
+ 
+447/54 cm-1 
+Ring torsion of Phenyl(2) 
+           121 
+ 
+477cm-1 
+Polysaccharides(amylase, amylopectin) 
+64 
+ 
+481cm-1 
+DNA 
+110 
+ 
+484-90cm-1 
+Glycogen  
+31  
+ 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+
+ 
+490cm-1 
+Glycogen 
+30 
+ 
+505/8cm-1 
+C-OH3 torsion of methoxy group(1) 
+121 
+ 
+509cm-1 
+S-S disulfide stretching band of collagen 
+50 
+ 
+ 
+ν(S-S) gauche-gauche-gauche (aminoacid cysteine) 
+64 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+93 
+ 
+519 cm-1 
+Phosphatidylinositol 
+70 
+ 
+524cm-1 
+S-S disulfide stretching in proteins 
+       30, 31 
+ 
+ 
+Phosphatidylserine 
+71 
+ 
+535cm-1 
+cholesterol ester 
+28 
+ 
+ 
+ν(S-S) gauche-gauche-trans (aminoacid cysteine) 
+64 
+ 
+538 cm-1 
+Cholesterol ester 
+71 
+ 
+540cm-1 
+ν(S-S) trans-gauche-trans (aminoacid cysteine) 
+64 
+ 
+548 cm-1 
+Cholesterol 
+71 
+ 
+540cm- 
+Glucose-saccharide band (overlaps with acyl band) 
+71 
+ 
+573cm-1 
+Tryptophan/cytosine, guanine 
+31 
+ 
+576 cm-1 
+Phosphatidylinositol 
+71 
+ 
+583/6cm-1 
+OH out of plane bending (free) 
+121 
+ 
+589cm-1 
+Symmetric stretching vibration of ν4 PO4
+3-(phosphate 
+of HA) 
+50 
+ 
+ 
+Glycerol  
+71 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+596 cm-1 
+Phosphatidylinositol 
+71 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+94 
+ 
+600-800cm-1 
+Nucleotide conformation 
+103 
+ 
+607cm-1 
+Glycerol 
+71 
+ 
+608cm-1 
+Cholesterol 
+71 
+ 
+614 cm-1 
+Cholesterol ester 
+71 
+ 
+618cm-1 
+C-C twisting (protein) 
+103 
+ 
+620cm-1 
+C-C twist aromatic ring (one of C-C vibrations to be 
+expected in aromatic structure of Xylene) 
+111 
+ 
+621cm-1 
+C-C twisting mode of phenylalanine (proteins) 
+30, 31, 122 
+ 
+630cm-1 
+Glycerol 
+71 
+ 
+630-70cm-1 
+ν(C-S) gauche (aminoacid methionine) 
+64 
+ 
+639  cm-1 
+Tyrosine ring breathing 
+39 
+ 
+640cm-1 
+C-S stretching & C-C twisting of proteins-tyrosine 
+103 
+ 
+643cm-1 
+C-C twisting mode of tyrosine 
+31, 50 
+ 
+645cm-1 
+C-C twisting mode of phenylalanine (proteins) 
+122 
+ 
+646cm-1 
+C-C twisting mode of tyrosine 
+50 
+ 
+662cm-1 
+C-S stretching mode of cystine (collagen type I) 
+30, 50 
+ 
+666cm-1 
+G, T (ring breathing modes in the DNA bases)-
+tyrosine-G backbone in RNA 
+103 
+ 
+667/9cm-1 
+C-S stretching mode of cystine (collagen type I) 
+30, 50 
+ 
+ 
+T, G (DNA/RNA) 
+122 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+95 
+ 
+669cm-1 
+C-S stretching mode of cytosine 
+31 
+ 
+669cm-1 
+ν7(δ: Porphyrin deformation), observed in the spectra 
+of single human RBC 
+98 
+ 
+671cm-1 
+Ring breathing of the Tryptophan 
+39 
+ 
+678 cm-1 
+Ring breathing modes in the DNA bases 
+103 
+ 
+ 
+G (ring breathing modes in the DNA bases)/C-2’-
+endo-anti 
+ 
+ 
+700-45cm-1 
+ν(C-S) trans (aminoacid methionine) 
+64 
+ 
+702 cm-1 
+Cholesterol, cholesterol ester 
+71 
+ 
+717-9cm-1 
+C-N (membrane phospholipids head)/adenine 
+31 
+ 
+ 
+CN+(CH3)3 (lipids) 
+122 
+ 
+718cm-1 
+Choline group 
+71 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+719cm-1 
+C-N (membrane phospholipid head)/nucleotide peak 
+30 
+ 
+ 
+Symmetric stretch vibration of choline group 
+N+(CH3)3, characteristic for phospholipids 
+71 
+ 
+ 
+Phosphatidylcholine, sphingomyelin 
+71 
+ 
+ 
+C-C-N+ symmetric stretching in phosphatidylcholine 
+(lipid assignment) 
+122 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+96 
+ 
+720/2cm-1 
+DNA 
+110 
+ 
+724 cm-1 
+Nucleic acids 
+59 
+ 
+725cm-1 
+A (ring breathing mode of DNA/RNA bases) 
+103 
+ 
+726cm-1 
+C-S (protein), CH2 rocking, adenine 
+31 
+ 
+727/8cm-1 
+C-C stretching, proline (collagen assignment) 
+123 
+ 
+ 
+Lipid 
+141 
+ 
+728 cm-1 
+Ring breathing of Tryptophan 
+39 
+ 
+729cm-1 
+A 
+122 
+ 
+733cm-1 
+Phosphatidylserine 
+71 
+ 
+735cm-1 
+C-S stretch (one of three thiocyanate peaks, with 2095 
+& 445 cm-1) 
+104 
+ 
+742 cm-1 
+DNA,  Tryptophan 
+38 
+ 
+746cm-1 
+T (ring breathing mode of DNA/RNA bases) 
+103 
+ 
+748cm-1 
+DNA 
+110 
+ 
+749cm-1 
+Symmetric breathing of tryptophan (protein 
+assignment) 
+20, 30, 50   
+ 
+750cm-1 
+CH2,6 out-of-plane bending,  observed in the spectra of 
+single human RBC 
+121 
+ 
+ 
+Lactic acid 
+110 
+ 
+752cm-1 
+ν15 (Porphyrin breathing mode), (the most informative 
+about the status of RBC & a direct measure of the 
+98 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+97 
+heme groups of the hemoglobins) 
+ 
+ 
+DNA 
+110 
+ 
+752/3/4/5cm-1 
+Symmetric breathing of tryptophan (protein 
+assignment) 
+20, 30, 50   
+ 
+755/6cm-1 
+Symmetric breathing of tryptophan 
+31, 67 
+ 
+759cm-1 
+Tryptophan 
+31 
+ 
+ 
+Ethanolamine group 
+71 
+ 
+ 
+Phosphatidylethanolamine 
+71 
+ 
+760cm-1 
+Tryptophan, δ(ring) 
+64 
+ 
+ 
+Ring breathing Tryptophan (proteins) 
+122 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+766cm-1 
+Pyrimidine ring breathing mode 
+69 
+ 
+776cm-1 
+Phosphatidylinositol 
+71 
+ 
+780cm-1 
+Uracil based ring breathing mode 
+69 
+ 
+781cm-1 
+Cytosine/Uracil ring breathing (Nucleotide) 
+31, 30   
+ 
+782cm-1 
+DNA 
+110, 122 
+ 
+ 
+Thymine, cytosine, Uracil 
+122 
+ 
+ 
+RNA 
+122 
+ 
+ 
+U, T, C (ring breathing modes in the DNA/RNA 
+122 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+98 
+bases) 
+ 
+784/5cm-1 
+Phosphodiester ; cytosine 
+106 
+ 
+785cm-1 
+U, T, C (ring breathing modes in the DNA/RNA 
+bases) 
+103 
+ 
+ 
+Backbone O-P-O 
+ 
+ 
+786cm-1 
+DNA: O-P-O, cytosine, uracil, thymine 
+31 
+ 
+ 
+Pyrimidine ring breathing mode 
+69 
+ 
+787cm-1 
+Can be taken as a measure for the relative quantity of 
+nucleic acids present 
+102 
+ 
+ 
+Phosphatidylserine 
+71 
+ 
+788cm-1 
+C5’-O-P-O-C3’ phosphodiester bands in DNA 
+122 
+ 
+ 
+DNA 
+122 
+ 
+ 
+O-P-O stretching DNA 
+37 
+ 
+791cm-1 
+Pyrimidine 
+37 
+ 
+800-1200cm-1 
+Backbone geometry and phosphate ion interactions 
+103 
+ 
+802cm-1 
+Uracil based ring breathing mode 
+69 
+ 
+810cm-1 
+Phosphodiester (Z-marker) 
+106 
+ 
+811cm-1 
+O-P-O stretching RNA 
+122 
+ 
+812cm-1 
+Phosphodiester (Z-marker) 
+106 
+ 
+813cm-1 
+One of the two most distinct peaks for RNA (with 
+103 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+99 
+1240cm -1)                 
+ 
+813cm-1 
+C-C stretching (collagen assignment) 
+123 
+ 
+ 
+C5’-O-P-O-C3’ phosphodiester bands in RNA 
+122 
+ 
+ 
+RNA 
+122 
+ 
+815cm-1 
+Proline, hydroxyproline, tyrosine, ν2 PO2
+- stretch of 
+nucleic acids 
+50 
+ 
+816cm-1 
+d (CCH) aliphatic of collagen 
+28 
+ 
+817cm-1 
+C-C stretching (collagen assignment) 
+123 
+ 
+820cm-1 
+Protein band 
+2, 3   
+ 
+ 
+Structural protein modes of tumors 
+27 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+820cm-1 
+Proteins, including collagen I 
+110 
+ 
+820-930cm-1 
+C-C stretch of proline and hydroxyproline 
+42 
+ 
+822cm-1 
+Phosphodiester 
+106 
+ 
+823cm-1 
+Out-of-plane ring breathing, tyrosine (protein 
+assignment) 
+20 
+ 
+823/5/6m-1 
+Phosphodiester 
+106 
+ 
+826 cm-1 
+O-P-O stretch DNA 
+31 
+ 
+827 cm-1 
+Proline, hydroxyproline, tyrosine, ν2 PO2
+- stretch of 
+nucleic acids 
+50 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+100 
+ 
+828cm-1 
+Out-of-plane ring breathing, tyrosine/O-P-O stretch 
+DNA 
+31, 30   
+ 
+ 
+Phosphodiester 
+106 
+ 
+ 
+O-P-O stretching DNA/RNA 
+122 
+ 
+ 
+Ring breathing tyrosine 
+122 
+ 
+830cm-1 
+Proline, hydroxyproline, tyrosine, ν2 PO2
+- stretch of 
+nucleic acids 
+50 
+ 
+ 
+C-H out of plane bending in benzoid ring 
+124 
+ 
+830cm-1 
+Tyrosine (Fermi resonance of ring fundamental and 
+overtone) 
+64 
+ 
+831cm-1 
+Asymmetric O-P-O stretching, tyrosine 
+103 
+ 
+838cm-1 
+Deformative vibrations od amine groups 
+124 
+ 
+840cm-1 
+α-anomers 
+71 
+ 
+ 
+Glucose-saccharide band (overlaps with acyl band) 
+71 
+ 
+ 
+Saccharide (α) 
+71 
+ 
+840-60cm-1 
+Polysaccharide structure 
+53 
+ 
+842cm-1 
+Glucose 
+31 
+ 
+847cm-1 
+Monosaccharides (α-glucose), (C-O-C) skeletal mode 
+64 
+ 
+ 
+Disaccharide (maltose), (C-O-C) skeletal mode 
+64 
+ 
+850cm-1 
+Most probably due to single bond stretching vibrations 
+for the amino acids and valine and polysaccharides 
+53 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+101 
+ 
+ 
+Tyrosine (Fermi resonance of ring fundamental and 
+overtone) 
+64 
+ 
+850-950cm-1 
+Signal free area of amphetamine 
+125 
+ 
+852cm-1 
+Proline, hydroxyproline, tyrosine 
+50 
+ 
+ 
+Tyrosine ring breathing 
+103 
+ 
+ 
+Glycogen 
+110 
+ 
+853cm-1 
+Ring breathing mode of tyrosine & C-C stretch of 
+proline ring 
+31, 30 
+ 
+ 
+Glycogen 
+110 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+854cm-1 
+(C-O-C) skeletal mode of α-anomers (polysaccharides, 
+pectin) 
+64 
+ 
+ 
+Ring breathing tyrosine (proteins) 
+122 
+ 
+855cm-1 
+Proline, tyrosine 
+20 
+ 
+ 
+ν(C-C), proline+δ(CCH)ring breathing, tyrosine 
+(protein assignment and polysaccharide) 
+20 
+ 
+ 
+δ(CCH) phevylalanine, olefinic (protein assignment 
+and polysaccharide) 
+126 
+ 
+ 
+Collagen 
+59 
+ 
+855/6cm-1 
+Proline, hydroxyproline, tyrosine 
+50 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+102 
+ 
+ 
+C-C stretching, proline (collagen assignment) 
+123 
+ 
+856cm-1 
+Amino acid side chain vibrations of proline & 
+hydroxyproline, as well as a (C-C) vibration of the 
+collagen backbone Hydroxyproline (collagen type I) 
+50 
+ 
+859 cm-1 
+Tyrosine, collagen 
+31 
+ 
+860cm-1 
+Phosphate group 
+71 
+ 
+ 
+Phosphatidic acid 
+71 
+ 
+867cm -1 
+Ribose vibration, one of the distinct RNA modes (with 
+915 and 974cm-1) 
+103 
+ 
+868/870/872 cm-
+1 
+Lipid 
+141 
+ 
+868cm-1 
+C-C stretching, hypro (collagen assignment) 
+123 
+ 
+ 
+Monosaccharides (β-fructose), (C-O-C) skeletal mode 
+64 
+ 
+ 
+Disaccharide (sucrose), (C-O-C) skeletal mode 
+64 
+ 
+ 
+Polysaccharides, amylase 
+64 
+ 
+ 
+Polysaccharides, amylopectin 
+64 
+ 
+869cm-1 
+Proline 
+31 
+ 
+870cm-1 
+Most probably due to single bond stretching vibrations 
+for the amino acids proline and valine and 
+polysaccharides 
+53 
+ 
+ 
+C-C stretching, hypro (collagen assignment) 
+123 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+103 
+ 
+873cm-1 
+Hydroxyproline, tryptophan 
+50 
+ 
+874cm-1 
+C-C stretching, hypro (collagen assignment) 
+123 
+ 
+875cm-1 
+Antisymmetric stretch vibration of choline group 
+N+(CH3)3, characteristic for phospholipids 
+71 
+ 
+ 
+Phosphatidylcholine, sphingomyelin 
+71 
+ 
+876cm-1 
+ν(C-C), hydroxyproline (protein assignment) 
+20 
+ 
+ 
+C-C stretching,  hydroxyproline (collagen assignment) 
+123 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+877cm-1 
+C-C-N+ symmetric stretching (lipids) 
+122 
+ 
+ 
+C-O-C ring (carbohydrate) 
+122 
+ 
+879cm-1 
+Hydroxyproline, tryptophan 
+50 
+ 
+880cm-1 
+Tryptophan, δ(ring) 
+64 
+ 
+883cm-1 
+ρ (CH2) (protein assignment) 
+126 
+ 
+884cm-1 
+Proteins, including collagen I 
+110 
+ 
+885cm-1 
+Disaccharide (cellobiose), (C-O-C) skeletal mode 
+64 
+ 
+889cm-1 
+Methylene rocking 
+127 
+ 
+890cm-1 
+Protein bands 
+2, 3   
+ 
+ 
+Structural protein modes of tumors 
+27 
+ 
+ 
+β-anomers 
+71 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+104 
+ 
+891cm-1 
+Saccharide band (overlaps with acyl band) 
+71 
+ 
+893cm-1 
+Backbone, C-C skeletal 
+103 
+ 
+893/5/6cm-1 
+Phosphodiester, Deoxyribose 
+106 
+ 
+898cm-1 
+Monosaccharides (β-glucose), (C-O-C) skeletal mode 
+64 
+ 
+ 
+Disaccharide (maltose), (C-O-C) skeletal mode 
+64 
+ 
+ 
+Adenine 
+30 
+ 
+904cm-1 
+C-C skeletal stretching 
+39 
+ 
+906cm-1 
+Tyrosine 
+37 
+ 
+907cm -1 
+Formalin contamination peak on fixed tissues 
+35 
+ 
+912cm-1 
+Calcium Oxalate 
+54 
+ 
+913cm -1 
+Glucose 
+71 
+ 
+915cm -1 
+Ribose vibration, one of the distinct RNA modes (with 
+915 and 974cm-1) 
+103 
+ 
+918cm-1 
+Proline, hydroxyproline 
+50 
+ 
+ 
+Glycogen and lactic acid 
+110 
+ 
+920cm-1 
+C-C stretch of proline ring/glucose/lactic acid 
+31, 30   
+ 
+ 
+C-C, praline ring (collagen assignment) 
+123 
+ 
+921 cm-1 
+Proline ring/glucose/lactic acid/praline ring 
+51 
+ 
+922 cm-1 
+C-C stretch  
+28 
+ 
+928-40cm-1 
+ν(C-C),stretching-probably in amino acids proline & 
+56 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+105 
+valine (protein band) 
+ 
+931cm-1 
+Carbohydrates peak for solutions and solids 
+3 
+ 
+932cm-1 
+Skeletal C-C, α-helix 
+31 
+ 
+933cm-1 
+Proline, hydroxyproline, ν(C-C) skeletal of collagen 
+backbone 
+50 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+934cm-1 
+C-C backbone (collagen assignment) 
+123 
+ 
+935cm-1 
+C-C stretching mode of proline & valine & protein 
+backbone (α-helix conformation) /glycogen (protein 
+assignment) 
+20, 30   
+ 
+ 
+Ρ(CH3) terminal, proline, valine + ν(CC) α-helix 
+keratin (protein assignment) 
+31 
+ 
+937cm-1 
+Proline(collagen type I) 
+50 
+ 
+ 
+Amino acid side chain vibrations of proline and 
+hydroxyproline, as well as a 
+50 
+ 
+ 
+(C-C) vibration of the collagen backbone 
+ 
+ 
+ 
+C-C backbone (collagen assignment) 
+123 
+ 
+ 
+Glycogen 
+110 
+ 
+ 
+ν (C-C) residues (α-helix) 
+70 
+ 
+ 
+C-C stretching, α-helix (proteins) 
+122 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+106 
+ 
+ 
+C-O-C glycodides (carbohydrates) 
+122 
+ 
+ 
+Collagen 
+59 
+ 
+937/8cm-1 
+Proline, hydroxyproline, ν(C-C) skeletal of collagen 
+backbone 
+50 
+ 
+938cm-1 
+C-C stretch backbone 
+31 
+ 
+941cm-1 
+Skeletal modes (polysaccharides, amylose) 
+64 
+ 
+ 
+Skeletal modes (polysaccharides, amylopectin) 
+64 
+ 
+950cm-1 
+Most probably due to single bond stretching vibrations 
+for the amino acids proline and valine and 
+polysaccharides 
+53 
+ 
+ 
+Calcium Phosphate stretch band 
+51 
+ 
+950-1050cm-1 
+Amphetamine has a group of three bands at this region 
+125 
+ 
+951cm-1 
+νs (CH3) of proteins (α-helix) 
+70 
+ 
+956cm-1 
+Crotenoids (absent in normal tissues) 
+1 
+ 
+957cm-1 
+Hydroxyapatite, carotenoid, cholesterol 
+31 
+ 
+960cm-1 
+Symmetric stretching vibration of ν1PO4
+3- (phosphate 
+of HA) 
+50 
+ 
+ 
+Calcium –Phosphate stretch band (high quantities of 
+cholesterol) 
+3, 87 
+ 
+ 
+Quinoid ring in-plane deformation 
+124 
+ 
+ 
+Calcium hydroxyapatite 
+68 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+107 
+ 
+962cm-1 
+Phoisphate symmetric stretching vibration of calcium 
+hydroxyapatite 
+94 
+ 
+963cm-1 
+Unassigned in protein assignments 
+20 
+ 
+ 
+CH2,6’ out-of-plane bending 
+121 
+ 
+966cm-1 
+Hydroxyapatite 
+31 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+968cm-1 
+Lipids 
+3 
+ 
+970cm-1 
+Phosphate monoester groups of phosphorylated 
+proteins & cellular nucleic acids 
+3 
+ 
+971cm-1 
+ν(C-C) wagging 
+70 
+ 
+972cm-1 
+Lipid 
+141 
+ 
+972/3cm-1 
+C-C backbone (collagen assignment) 
+123 
+ 
+973cm-1 
+ρ(CH3), δ(CCH) olefinic (protein assignment) 
+126 
+ 
+974cm -1 
+Ribose vibration, one of the distinct RNA modes (with 
+874 and 915cm-1) 
+103 
+ 
+980cm -1 
+C-C stretching β-sheet (proteins) 
+122 
+ 
+991cm-1 
+Single human RBC, Phenylalanine, NADH 
+38 
+ 
+996cm-1 
+C-O ribose, C-C 
+3 
+ 
+999cm-1 
+ν45(CC), observed in the spectra of single human RBC 
+98 
+ 
+1000cm-1 
+Phenylalanine 
+76 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+108 
+ 
+ 
+Bound & free NADH 
+76 
+ 
+1001cm-1 
+Symmetric ring breathing mode of phenylalanine 
+31, 30, 52 
+ 
+1002cm-1 
+C-C aromatic ring stretching 
+111 
+ 
+ 
+Phenylalanine 
+76 
+ 
+1002cm-1 
+Phenylalanine 
+50 
+ 
+ 
+Phenylalanine (collagen assignment) 
+123 
+ 
+1003cm-1 
+Phenylalanine, C-C skeletal 
+103 
+ 
+1004cm-1 
+Phenylalanine ( of collagen) 
+50 
+ 
+ 
+νs (C-C), Symmetric ring breathing ,phenylalanine 
+(protein assignment) 
+20, 126 
+ 
+ 
+Phenylalanine (collagen assignment) 
+123 
+ 
+ 
+Phenyl breathing mode 
+126 
+ 
+ 
+ν(C-C) phenylalanine 
+70 
+ 
+1005cm-1 
+Phenylalanine (proteins) 
+122 
+ 
+ 
+Proteins 
+122 
+ 
+ 
+Symmetric ring breathing of phenylalanine 
+122 
+ 
+ 
+Carotenoids 
+141 
+ 
+1006cm-1 
+Carotenoids (absent in normal tissues) 
+1 
+ 
+ 
+Phenylalanine, δ(ring) 
+64 
+ 
+1007cm-1 
+Phenylalanine, carbamide 
+37 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+109 
+ 
+1008cm-1 
+Phenylalanine 
+102 
+ 
+ 
+ν(CO), ν(CC), δ(OCH), ring (polysaccharides, pectin) 
+64 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1011cm-1 
+Tryptophan ring breathing 
+52 
+ 
+1016cm-1 
+Carbohydrates peak for solids 
+3 
+ 
+1017cm-1 
+Ribose 
+51 
+ 
+1018cm-1 
+Stretching C-O ribose 
+128 
+ 
+1022cm-1 
+Glycogen 
+3 
+ 
+1023cm-1 
+Glycogen 
+3 
+ 
+1025cm-1 
+Carbohydrates peak for solutions 
+3 
+ 
+ 
+Glycogen 
+3, 129 
+ 
+1029/30cm-1 
+O-CH3 stretching of methoxy groups 
+121 
+ 
+1030cm-1 
+Phenylalanine of collagen 
+50 
+ 
+ 
+ν (CC) skeletal, keratin (protein assignment) 
+126 
+ 
+ 
+C-H bending               
+52 
+ 
+1031cm-1 
+δ(C-H), phenylalanine (protein assignment) 
+20 
+ 
+ 
+C-H in-plane bending mode of phenylalanine 
+30 
+ 
+ 
+Carbohydrate residues of  collagen 
+3 
+ 
+ 
+Phenylalanine, C-N stretching of proteins 
+103 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+110 
+ 
+ 
+C-H in-planebending mode of phenylalanine 
+31 
+ 
+1032cm-1 
+CH2CH3 bending modes of collagen & phospholipids 
+20 
+ 
+ 
+C-C skeletal stretch (one of C-C ring vibration to be 
+expected in aromatic structure of Xylene) 
+111 
+ 
+ 
+Phenylalanine of collagen 
+50 
+ 
+ 
+Proline (collagen assignment) 
+123 
+ 
+1033cm-1 
+Differences in collagen content 
+3 
+ 
+ 
+Phenylalanine mode 
+103 
+ 
+ 
+ν(CO), ν(CC), ν(CCO) (polysaccharides, pectin) 
+64 
+ 
+ 
+C-H in-plane phenylalanine (proteins) 
+122 
+ 
+1034cm-1 
+Phenylalanine of collagen 
+50 
+ 
+1035cm-1 
+Collagen 
+130 
+ 
+1040/41cm-1 
+Formalin peaks appearing in the fixed normal and 
+tumor tissues 
+131 
+ 
+1043cm-1 
+Carbohydrates peak for solutions and solids 
+3 
+ 
+ 
+Proline (collagen assignment) 
+123 
+ 
+1044cm-1 
+ν3PO4
+3-(symmetric stretching vibration of ν3PO4
+3- of 
+HA) 
+50 
+ 
+ 
+Proline 
+51 
+ 
+1048cm-1 
+Glycogen 
+110 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+111 
+ 
+1053cm-1 
+C-O stretching, C-N stretching (protein) 
+103 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1055cm-1 
+In the solid, the most significant difference between 
+the 2 nucleic acids is the ratio intensity of the bands in 
+this area 
+3 
+ 
+1057cm-1 
+Lipids 
+3 
+ 
+1060-95cm-1 
+PO2
+- stretching (DNA/RNA) 
+122 
+ 
+ 
+Chain C-C stretching (lipids) 
+122 
+ 
+ 
+C-O, C-C stretching (carbohydrates) 
+122 
+ 
+1060-130cm-1 
+C-C skeletal stretching 
+127 
+ 
+1061cm-1 
+C-C in-plane bending (one of C-C ring vibration to be 
+expected in aromatic structure of Xylene) 
+111 
+ 
+ 
+C-N stretching 
+52 
+ 
+ 
+Ceramide 
+91 
+ 
+1063cm-1 
+C-C skeletal stretch random conformation 
+111 
+ 
+1064cm-1 
+Skeletal c-c stretch of lipids 
+31 
+ 
+ 
+Acyl chains 
+71 
+ 
+ 
+ν(C-C) trans 
+70 
+ 
+1065cm-1 
+Palmitic acid 
+71 
+ 
+ 
+Fatty acid 
+71 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+112 
+ 
+ 
+Proline 
+51 
+ 
+1066/7cm-1 
+Proline (collagen assignment) 
+123 
+ 
+1070cm-1 
+Triglycerides (fatty acids) 
+94 
+ 
+1070-90cm-1 
+Symmetric PO2
+- stretching of DNA (represents more 
+DNA in cell) 
+132 
+ 
+1071cm-1 
+Glucose 
+71 
+ 
+1073cm-1 
+Carbonate symmetric stretching vibration of calcium 
+carbonate apatite 
+94 
+ 
+ 
+Triglycerides (fatty acids) 
+94 
+ 
+1074cm-1 
+Glucose, Triglycerides, C-C (lipid) 
+38 
+ 
+1076cm-1 
+C-C (lipid in normal tissues) 
+76 
+ 
+ 
+Symmetric stretching vibration of ν3PO4
+3-(phosphate 
+of HA) 
+50 
+ 
+1078cm-1 
+ν(C-C) or ν(C-O), phospholipids (lipid assignment) 
+20 
+ 
+ 
+Pronounced symmetric phosphate stretch 
+20 
+ 
+ 
+Phospholipids 
+20 
+ 
+ 
+C-C or C-O stretching mode of phospholipids 
+20 
+ 
+ 
+Carbohydrate peak for solids 
+3 
+ 
+ 
+C-C or C-O stretch (lipid), C-C or PO2 stretch (nucleic 
+acid) 
+31 
+ 
+ 
+ν(CC) skeletal 
+126 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+113 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1078cm-1 
+ν(CC) vitors (PO2
+-) nucleic acid 
+126 
+ 
+1080cm-1 
+Amide II (?) 
+3 
+ 
+ 
+Typical phospholipids 
+76 
+ 
+ 
+Phosphate  vibrations (phosphodiester groups in 
+nucleic acids) 
+22 
+ 
+ 
+Collagen 
+130 
+ 
+ 
+Tryptophan 
+30 
+ 
+1081cm-1 
+ν1CO3
+2-, ν3PO4
+3-, ν(C-C) skeletal of acyl backbone in 
+lipid (gauche conformation) 
+50 
+ 
+1082cm-1 
+Carbohydrate residues of collagen 
+3 
+ 
+ 
+Carbohydrates peak for solutions 
+3 
+ 
+ 
+Nucleic acids 
+3 
+ 
+1083cm-1 
+C-N stretching mode of proteins (& lipid mode of 
+lesser degree) 
+30 
+ 
+ 
+C-N stretching mode of proteins (and lipid mode to a 
+lesser degree) 
+31 
+ 
+1084cm-1 
+Phosphodiester groups in nucleic acids 
+3 
+ 
+1086cm-1 
+ν(C-C) gauche  
+70 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+114 
+ 
+1087cm-1 
+ν1CO3
+2-, ν3PO4
+3-, ν(C-C) skeletal of acyl backbone in 
+lipid (gauche conformation) 
+50 
+ 
+1087-90cm-1 
+C-C stretch 
+31 
+ 
+ 
+PO2
+- stretch 
+ 
+ 
+1090cm-1 
+Symmetric phosphate stretching vibrations 
+3 
+ 
+1092/3cm-1 
+Phosphodioxy 
+106 
+ 
+1093cm-1 
+Symmetric PO2
+- stretching vibration of the DNA 
+backbone-Phosphate backbone vibration as a marker 
+mode for the DNA concentration-C-N of proteins 
+103, 91 
+ 
+1094cm-1 
+DNA 
+76 
+ 
+ 
+C-N stretching 
+52 
+ 
+1095cm-1 
+Lipid 
+133 
+ 
+ 
+ν(C-N) 
+50 
+ 
+ 
+Phosphodioxy group (PO2
+- in nucleic acids) 
+122 
+ 
+1096cm-1 
+Phosphodioxy ( PO2
+-) groups 
+71 
+ 
+1099cm-1 
+ν(C-N) 
+50 
+ 
+1100cm-1 
+C-C vibration mode of the gauche-bonded chain 
+127 
+ 
+1100-375cm-1 
+Several bands of moderate intensity, belonging to 
+anide III and other groups (proteins) 
+70 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+115 
+ 
+1100-800cm-1 
+ν(C-C)-Lipids, fatty acids 
+64 
+ 
+1101cm-1 
+O-P-O backbone stretch of DNA 
+28 
+ 
+1104cm-1 
+Phenylalanine (proteins) 
+70 
+ 
+1105cm-1 
+Carbohydrates peak for solutions 
+3 
+ 
+1111cm-1 
+Benzoid ring deformation 
+124 
+ 
+1112cm-1 
+Saccharide band (overlaps with acyl band) 
+71 
+ 
+1115/6cm-1 
+CH2,6 in-plane bend and C1-Cα-Hα bend 
+121 
+ 
+1117cm-1 
+Glucose 
+71 
+ 
+1117-9cm-1 
+C-C stretch (breast lipid) 
+31 
+ 
+1120cm-1 
+The strong C-O band of ribose (serves as a marker 
+band for RNA in solutions) 
+3 
+ 
+ 
+Carotene 
+76 
+ 
+1122cm-1 
+ν22(porphyrin half ring),  observed in the spectra of 
+single human RBC 
+98 
+ 
+ 
+νs(CC) skeletal  
+126 
+ 
+ 
+νsym (C-O-C) (polysaccharides, cellulose) 
+64 
+ 
+ 
+ν(C-C) trans 
+70 
+ 
+1123cm-1 
+(C-N), proteins (protein assignment) 
+20 
+ 
+ 
+C-C stretching mode of lipids & protein, C-N stretch 
+31, 30   
+ 
+ 
+Glucose 
+31 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+116 
+ 
+1124cm-1 
+ν(C-C) skeletal of acyl backbone in lipid 
+(transconformation) 
+50 
+ 
+1126cm-1 
+Paraffin 
+3 
+ 
+ 
+ν(C-C) skeletal of acyl backbone in lipid 
+(transconformation) 
+50 
+ 
+ 
+C-N stretching vibration (protein vibration) 
+103 
+ 
+ 
+ν(C-O)+ ν(C-C), Disaccharides, sucrose 
+64 
+ 
+1126 cm-1 
+C-N stretching 
+39 
+ 
+1127cm-1 
+ν(C-N) 
+70 
+ 
+1128cm-1 
+C-N stretching (proteins) 
+122 
+ 
+ 
+C-O stretching (carbohydrates) 
+122 
+ 
+ 
+Ceramide 
+59 
+ 
+1128/9cm-1 
+ν(C-C) skeletal of acyl backbone in lipid 
+(transconformation) 
+50 
+ 
+1130cm-1 
+C-C skeletal stretch transconformation 
+111 
+ 
+ 
+Phospholipid structural changes (trans versus gauche 
+isomerism) 
+129 
+ 
+ 
+Acyl chains 
+71 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1131cm-1 
+Palmitic acid 
+71 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+117 
+ 
+ 
+Fatty acid 
+71 
+ 
+ 
+C-C skeletal stretching 
+39 
+ 
+1149cm-1 
+Carbohydrates peak for solids 
+3 
+ 
+1150cm-1 
+Glycogen 
+3 
+ 
+ 
+Carotenoid 
+2 
+ 
+1152cm-1 
+ν(C-N), proteins (protein assignment) 
+20 
+ 
+ 
+ν(C-C), carotenoids 
+20 
+ 
+ 
+Carotenoid peaks due to C-C & conjugated C=C band 
+stretch 
+20 
+ 
+1153cm-1 
+Carbohydrates peak for solutions 
+3 
+ 
+1154cm-1 
+-Carotenes
+30 
+ 
+1155/6/7cm-1 
+Carotenoids 
+141 
+ 
+1155cm-1 
+C-C (&C-N) stretching of proteins (also carotenoids) 
+31, 30   
+ 
+ 
+Glycogen 
+3 
+ 
+ 
+ν (C-C)- Diagnostic for the presence of a carotenoid 
+structure, most likely a cellular pigment. 
+102 
+ 
+1156cm-1 
+C-C, C-N stretching (protein) 
+103 
+ 
+1156/7cm-1 
+Carotenoids (absent in normal tissue) 
+1 
+ 
+1157cm-1 
+In-plane vibrations of the conjugated =C-C= 
+95 
+ 
+ 
+β-carotene accumulation (C=C stretch mode) 
+94 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+118 
+ 
+1158cm-1 
+C-C/C-N stretching (proteins) 
+122 
+ 
+1160cm-1 
+C-C/C-N stretching (proteins) 
+38 
+ 
+1161cm-1 
+Deformative vibrations of quinoid ring 
+124 
+ 
+1163cm-1 
+Tyrosine (collagen type I) 
+50 
+ 
+ 
+Tyrosine 
+50 
+ 
+1167cm-1 
+N=Quinoid ring=N stretching and C-H in plane 
+bending 
+124 
+ 
+1168cm-1 
+Lipids 
+3 
+ 
+ 
+ν(C=C) δ(COH) (lipid assignment) 
+126 
+ 
+ 
+ν(C-C), carotenoids 
+126 
+ 
+1169cm-1 
+Tyrosine (collagen type I) 
+50 
+ 
+ 
+Tyrosine 
+50 
+ 
+1170cm-1 
+C-H in-plane bending mode of tyrosine 
+31, 30 
+ 
+1171cm-1 
+Tyrosine (collagen type I) 
+50 
+ 
+ 
+Tyrosine 
+50 
+ 
+ 
+(CH) Phenylalanine, Tyrosine 
+70 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1172cm-1 
+δ(C-H), tyrosine (protein assignment) 
+20 
+ 
+1173cm-1 
+Cytosine, guanine 
+106 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+119 
+ 
+ 
+Tyrosine (collagen type I) 
+50 
+ 
+1174cm-1 
+Tyrosine, phenylalanine, C-H bend (protein) 
+103 
+ 
+1175/6cm-1 
+Cytosine, guanine 
+106 
+ 
+1176cm-1 
+C-H bending tyrosine (proteins) 
+122 
+ 
+1177cm-1 
+Cytosine, guanine 
+106 
+ 
+1180cm-1 
+Cytosine, guanine 
+106 
+ 
+1180-84cm-1 
+Cytosine, guanine, adenine 
+31 
+ 
+1185-300cm-1 
+Anti-symmetric phosphate vibrations 
+130 
+ 
+1199cm-1 
+Tryptophan ring breathing 
+39 
+ 
+1200cm-1 
+Nucleic acids and phosphates 
+130 
+ 
+ 
+Aromatic C-O and C-N  
+134 
+ 
+1200-300cm-1 
+Amide III (proteins) 
+122 
+ 
+1200-350cm-1 
+Amide III-Due to C-N stretching and N-H bending 
+76, 103  
+ 
+1200-360cm-1 
+Electronic structure of nucleotides 
+103 
+ 
+1203cm-1 
+C-C6H5 stretch mode (one of C-C ring vibration to be 
+expected in aromatic structure of Xylene) 
+11 
+ 
+1204cm-1 
+Amide III & CH2 wagging vibrations from glycine 
+backbone  & proline side chains 
+3 
+ 
+ 
+Collagen         
+ 
+ 
+ 
+Tyrosine, Phenylalanine (IgG) 
+129, 130  
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+120 
+ 
+1205cm-1 
+Differences in collagen content 
+3 
+ 
+1206cm-1 
+Hydroxyproline, tyrosine (collagen assignment) 
+123 
+ 
+ 
+Hydroxyproline, tyrosine 
+31 
+ 
+1208cm-1 
+ν(C-C6H5), tryptophan, phenylalanine (protein 
+assignment) 
+20, 126 
+ 
+ 
+Tryptophan 
+50 
+ 
+ 
+A,T (ring breathing modes of the DNA/RNA bases)-
+Amide III (protein) 
+103 
+ 
+1209cm-1 
+Tryptophan & phenylalanine ν(C-C6H5) mode 
+31, 30, 122 
+ 
+1210cm-1 
+C-C6H5 stretching mode in tyrosine and phenylalanine 
+78 
+ 
+ 
+ν18(δ: CmH),  observed in the spectra of single human 
+RBC 
+102 
+ 
+1216cm-1 
+Stretching of C-N  
+124 
+ 
+1220cm-1 
+C=N=C stretching 
+124 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1220-1cm-1 
+Amide III (β-sheet) 
+31 
+ 
+1220-84cm-1 
+T,A (DNA/RNA) 
+122 
+ 
+ 
+Amide III (proteins) 
+122 
+ 
+1220-300cm-1 
+Amide III (arising from coupling of C-N stretching & 
+N-H bonding-can be mixed with vibrations of side 
+53 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+121 
+chains)(protein band) 
+ 
+1223cm-1 
+ν( PO2
+-), nucleic acids 
+20 
+ 
+ 
+Cellular nucleic acids 
+20 
+ 
+ 
+A concerted ring mode 
+104 
+ 
+ 
+Proteins, including collagen I 
+110 
+ 
+1224cm-1 
+Amide III (β sheet structure) 
+70 
+ 
+1230cm-1 
+Antisymmetric phosphate stretching vibration 
+3 
+ 
+1230-300cm-1 
+Amide III (arising from coupling of C-N stretching & 
+N-H bonding- can be mixed with vibrations of side 
+chains) 
+3 
+ 
+1234cm-1 
+A concerted ring mode 
+104 
+ 
+1235cm-1 
+Amide III 
+64 
+ 
+1237cm-1 
+Amide III &CH2 wagging vibrations from glycine 
+backbone& proline side chains 
+3 
+ 
+1239cm-1 
+Amide III 
+111 
+ 
+1240cm-1 
+One of the two most distinct peaks for RNA (with 
+813cm -1) 
+103 
+ 
+ 
+Differences in collagen content 
+3 
+ 
+ 
+Asymmetric phosphate [PO2
+- (asym.)] stretching 
+modes  
+30 
+ 
+ 
+Collagen                         
+130 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+122 
+ 
+1241cm-1 
+Asymmetric phosphate [PO2
+- (asym.)] stretching 
+modes (phosphate stretching modes originate from the 
+phosphodiester groups of nucleic acids and suggest an 
+increase in the nucleic acids in the malignant 
+tissues)(Generally, the PO2
+- groups of phospholipids 
+do not contribute to these bands)   
+50 
+ 
+1242cm-1 
+Amide III (β sheet and random coils) 
+70 
+ 
+1243cm-1 
+Amide III 
+3 
+ 
+ 
+Asymmetric phosphate [PO2
+- (asym.)] stretching 
+modes (phosphate stretching modes originate from the 
+phosphodiester groups of nucleic acids and suggest an 
+increase the in nucleic acids in the malignant 
+tissues)(Generally, the PO2
+- groups of phospholipids 
+do not contribute to these bands)   
+ 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1243cm-1 
+C-O4 aromatic stretch   
+50 
+ 
+ 
+Amide III of collagen (CH2 wagging, C-N stretching) 
+and pyrimidine bases (C, T)                         
+121, 31 
+ 
+1245cm-1 
+Amide III 
+64 
+ 
+1246cm-1 
+Amide III (of collagen) 
+50 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+123 
+ 
+1247cm-1 
+Amide III (collagen assignment) 
+123 
+ 
+1247/8cm-1 
+Guanine, cytosine (NH2) 
+106 
+ 
+1248cm-1 
+Amide III 
+28 
+ 
+1250cm-1 
+Amide III 
+102 
+ 
+1250/2cm-1 
+Guanine, cytosine (NH2) 
+106 
+ 
+1252cm-1 
+C-O4 aromatic stretch 
+121 
+ 
+1254cm-1 
+Formalin contamination on fixed tissues 
+35 
+ 
+ 
+C-N in plane stretching 
+124 
+ 
+1255cm-1 
+Lipids 
+3 
+ 
+1257cm-1 
+A, T (ring breathing modes of the DNA/RNA bases)-
+Amide III (protein) 
+103 
+ 
+1258cm-1 
+Amide III, adenine, cytosine 
+31 
+ 
+1258cm-1 
+CH2 in plane deformation 
+38 
+ 
+1259cm-1 
+Guanine, cytosine (NH2) 
+106 
+ 
+ 
+Amide III 
+123 
+ 
+1260cm-1 
+Amide III (protein band) 
+3 
+ 
+ 
+Protein band 
+2 
+ 
+1260cm-1 
+Second amide 
+1 
+ 
+ 
+Amide III (unordered) 
+31 
+ 
+ 
+Structural protein modes of tumours 
+27 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+124 
+ 
+ 
+Amide III vibration mode of structural proteins 
+94 
+ 
+ 
+CH2 in-plane deformation (lipids) 
+113 
+ 
+1263cm-1 
+T, A (ring breathing modes of the DNA/RNA bases)-
+=C-H bend (protein) 
+103 
+ 
+1263/5/9cm-1 
+Lipids 
+141 
+ 
+1264cm-1 
+Triglycerides (fatty acids) 
+94 
+ 
+1265cm-1 
+Amide III of collagen 
+35 
+ 
+ 
+Amide III (collagen assignment) 
+123 
+ 
+ 
+Amide III 
+126 
+ 
+ 
+ν(CN),δ(NH) amide III, α-helix, collagen (protein 
+assignment) 
+126 
+ 
+1266cm-1 
+Amide III (of proteins in the α-helix conformation) 
+20, 50 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1266cm-1 
+ν(CN),δ(NH) amide III, α-helix, collagen, tryptophan 
+(protein assignment) 
+20 
+ 
+ 
+δ (=C-H) cis 
+64 
+ 
+ 
+Amide III (α-helix) 
+70 
+ 
+1267cm-1 
+C-H (lipid in normal tissue) 
+76 
+ 
+ 
+Amide III (collagen assignment) 
+ 
+ 
+1268cm-1 
+Δ (=C-H) (phospholipids) 
+70 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+125 
+ 
+1268/9cm-1 
+Amide III (collagen assignment) 
+123 
+ 
+1270cm-1 
+Typical phospholipids 
+76 
+ 
+ 
+Amide III band in proteins 
+52 
+ 
+ 
+Has traditionally been attributed to Amide III, a C-N 
+stretch from alpha helix proteins 
+112 
+ 
+ 
+C=C groups in unsaturated fatty acids 
+71 
+ 
+1272/3cm-1 
+CHα’ rocking 
+121 
+ 
+1273cm-1 
+δ (C=CH) 
+28 
+ 
+1275cm-1 
+Amide III 
+64 
+ 
+1278cm-1 
+Proteins, including collagen I 
+110 
+ 
+1279cm-1 
+Amide III (α-helix) 
+31 
+ 
+1280cm-1 
+Amide III & CH2 wagging vibrations from glycine 
+backbone & proline side chains  
+3 
+ 
+ 
+Collagen 
+ 
+ 
+ 
+Nucleic acids and phosphates 
+130 
+ 
+1283cm-1 
+Differences in collagen content 
+3 
+ 
+1287/8cm-1 
+Cytosine 
+106 
+ 
+1288cm-1 
+Phosphodiester groups in nucleic acids 
+3 
+ 
+1290cm-1 
+Cytosine 
+106 
+ 
+1290-400cm-1 
+CH bending 
+135 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+126 
+ 
+1291/2cm-1 
+Cytosine 
+106 
+ 
+1294cm-1 
+Methylene twisting 
+127 
+ 
+1296cm-1 
+CH2 deformation 
+111 
+ 
+ 
+Ceramide 
+59 
+ 
+1297cm-1 
+Palmitic acid 
+38 
+ 
+1298cm-1 
+Palmitic acid 
+71 
+ 
+ 
+Acyl chains 
+71 
+ 
+ 
+Fatty acids 
+71 
+ 
+1299/300cm-1 
+CH2 deformation (lipid) 
+31 
+ 
+ 
+ 
+ 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1300/1/3/5 
+Lipid 
+141 
+ 
+1300cm-1 
+-(CH2)n- in-plane twist vibration (lipid band) 
+53 
+ 
+ 
+Fatty acids 
+3 
+ 
+ 
+Fatty acids 
+2 
+ 
+ 
+δ(CH2)-lipids, fatty acids 
+64 
+ 
+ 
+CH2 twisting modes 
+126 
+ 
+ 
+δ(CH), τ(CH2) (α-helix) 
+70 
+ 
+ 
+CH2 twisting (lipids) 
+70 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+127 
+ 
+ 
+CH2 twisting and wagging (lipids) 
+113 
+ 
+1301cm-1 
+Assign from Parker (lipid in normal tissue) 
+76 
+ 
+ 
+Triglycerides (fatty acids) 
+94 
+ 
+ 
+τ(CH2), lipids 
+70 
+ 
+ 
+C-H vibration (lipids) 
+122 
+ 
+ 
+Lipids 
+122 
+ 
+ 
+CH2 twisting (lipids) 
+122 
+ 
+1302cm-1 
+δ(CH2) twisting, wagging, collagen (protein 
+assignment) 
+20, 126 
+ 
+ 
+δ(CH2) twisting, wagging, phospholipids (lipid 
+assignment) 
+20, 126 
+ 
+ 
+CH3/CH2 twisting or bending mode of lipid/collagen 
+50 
+ 
+ 
+Amide III (protein) 
+103 
+ 
+ 
+Methylene bending mode (a combination of proteins 
+& phospholipids 
+35 
+ 
+1303/4cm-1 
+CH3,CH2 twisting (collagen assignment) 
+123 
+ 
+1304cm-1 
+CH2 deformation (lipid), adenine, cytosine 
+31 
+ 
+1307cm-1 
+CH3/CH2 twisting or bending mode of lipid/collagen 
+50 
+ 
+ 
+CH3/CH2 twisting, wagging &/or bending mode of 
+collagens & lipids 
+50 
+ 
+1308cm-1 
+C-N asymmetric stretching in asymmetric aromatic 
+124 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+128 
+amines 
+ 
+1309cm-1 
+CH3/CH2 twisting or bending mode of lipid/collagen 
+50 
+ 
+ 
+CH3/CH2 twisting, wagging &/or bending mode of 
+collagens & lipids 
+50 
+ 
+1313cm-1 
+CH3CH2 twisting mode of collagen/lipid 
+31, 30  
+ 
+1314cm-1 
+CH3CH2 twisting mode of collagen 
+81 
+ 
+1315cm-1 
+Guanine (B,Z-marker) 
+106 
+ 
+1317/8/9cm-1 
+Guanine (B,Z-marker) 
+106 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1318cm-1 
+G (ring breathing modes of the DNA/RNA bases)-C-H 
+deformation (protein) 
+103 
+ 
+ 
+Amide III (α-helix) 
+70 
+ 
+1319cm-1 
+Guanine (B,Z-marker) 
+106 
+ 
+ 
+CH3CH2 twisting (collagen assignment) 
+123 
+ 
+1320cm-1 
+G (DNA/RNA) 
+122 
+ 
+ 
+CH deformation (proteins) 
+122 
+ 
+1321cm-1 
+Amide III (α-helix), 
+70 
+ 
+ 
+CH2 deformation of lipids 
+28 
+ 
+1322cm-1 
+CH3CH2 twisting, collagen 
+20 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+129 
+ 
+ 
+CH3CH2 twisting and wagging in collagen 
+20 
+ 
+ 
+CH3CH2 deforming modes of collagen and nucleic 
+acids 
+35 
+ 
+1323cm-1 
+Guanine (B,Z marker) 
+106 
+ 
+ 
+CH deformation 
+39 
+ 
+1324cm-1 
+CH3CH2 wagging mode present in collagen & purine 
+bases of DNA 
+78 
+ 
+1325-30cm-1 
+CH3CH2 wagging mode in purine bases of nucleic 
+acids 
+112, 59 
+ 
+1330cm-1 
+Typical phospholipids 
+76 
+ 
+ 
+Region associated with DNA & phospholipids 
+27 
+ 
+ 
+Collagen 
+130 
+ 
+ 
+Nucleic acids and phosphates 
+130 
+ 
+1332cm-1 
+-C stretch of Phenyl (1) and C3-C3 stretch and C5-O5 
+stretch CHα in-plane bend 
+121 
+ 
+1333cm-1 
+Guanine 
+106 
+ 
+1335cm-1 
+CH3CH2 wagging, collagen (protein assignment) 
+20 
+ 
+ 
+CH3CH2 wagging, nucleic acid 
+20 
+ 
+ 
+CH3CH2 wagging mode of collagen & polynucleotide 
+chain (DNA purine bases) 
+30 
+ 
+ 
+CH3CH2 twisting and wagging in collagen 
+20 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+130 
+ 
+ 
+Cellular nucleic acids 
+20 
+ 
+ 
+CH3CH2 deforming modes of collagen and nucleic 
+acids 
+35 
+ 
+ 
+An unassigned mode 
+104 
+ 
+1335-45cm-1 
+CH3CH2 wagging mode of collagen 
+31 
+ 
+1335/6cm-1    
+Guanine 
+106 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1336cm-1    
+Polynucleotide chain (DNA purine bases) 
+31 
+ 
+ 
+δ(CH3) δ(CH2) twisting, collagen (protein assignment) 
+126 
+ 
+1337cm-1    
+Amide III & CH2 wagging vibrations from glycine 
+backbone & proline side chain 
+3 
+ 
+ 
+A, G (ring breathing modes in the DNA bases)- C-H 
+deformation (protein) 
+103 
+ 
+1337/9cm-1    
+Tryptophan 
+50 
+ 
+ 
+CH2/CH3 wagging, twisting &/or bending mode of 
+collagens & lipids 
+50 
+ 
+ 
+CH2/CH3 wagging & twisting mode in collagen, 
+nucleic acid & tryptophan 
+50 
+ 
+1339cm-1    
+C-C stretch of Phenyl (1) and C3-C3 stretch and C5-O5 
+stretch CHα in-plane bend 
+136 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+131 
+ 
+1340cm-1    
+Nucleic acid mode 
+1 
+ 
+ 
+Differences in collagen content 
+3 
+ 
+ 
+Nucleic acid modes indicating the nucleic acid content 
+in tissues 
+137 
+ 
+1341cm-1 
+A or G of DNA 
+67 
+ 
+1342cm-1    
+G (DNA/RNA) 
+122 
+ 
+ 
+CH deformation (proteins and carbohydrates) 
+122 
+ 
+1343cm-1    
+CH3,CH2 wagging (collagen assignment) 
+123 
+ 
+ 
+Glucose 
+49 
+ 
+1343/4cm-1    
+δ(CH), residual vibrations 
+70 
+ 
+1347cm-1    
+An unassigned mode 
+104 
+ 
+1350cm-1 
+Carbon Particle 
+ 
+33 
+ 
+1355/7cm-1 
+Guanine (N7, B,Z-marker 
+106 
+ 
+1359cm-1 
+Tryptophan 
+50 
+ 
+1360/4cm-1 
+Tryptophan 
+64, 37 
+ 
+1361-3/5cm-1 
+Guanine (N7, B,Z-marker 
+106 
+ 
+1365cm-1 
+Tryptophan 
+50 
+ 
+1367cm-1 
+νs (CH3) (phosphplipids) 
+70 
+ 
+1369cm-1 
+Guanine, TRP (protein), porphyrins, lipids 
+34 
+ 
+1370cm-1 
+The most pronounced saccharide band 
+71 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+132 
+ 
+1371cm-1 
+CH3 stretching 
+39 
+ 
+1373cm-1 
+T, A, G (ring breathing modes of the DNA/RNA 
+bases) 
+103 
+ 
+1378cm-1 
+Paraffin 
+3 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1379cm-1 
+δCH3 symmetric (lipid assignment) 
+126 
+ 
+1383cm-1 
+CH3 band 
+38 
+ 
+1386cm-1 
+CH3 band 
+31 
+ 
+1391cm-1 
+CH rocking 
+121 
+ 
+1392cm-1 
+C-N stretching, in Quinoid ring_Benzoid ring-Quinoid 
+ring 
+124 
+ 
+1393cm-1 
+CH rocking 
+121 
+ 
+1396cm-1 
+
+29 
+ 
+1398cm-1 
+C=O symmetric stretch 
+111 
+ 
+ 
+CH2 deformation 
+50 
+ 
+1400cm-1 
+NH in-plane deformation 
+104 
+ 
+1400-30cm-1 
+ν(C=O)O- (amino acids aspartic & glutamic acid) 
+64 
+ 
+1401cm-1 
+Bending modes of methyl groups (one of vibrational 
+modes of collagen) 
+3 
+ 
+1404cm-1 
+CH deformation 
+39 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+133 
+ 
+1406cm-1 
+νs COO- (IgG?)  
+70 
+ 
+1409cm-1 
+νs COO- (IgG?) 
+70 
+ 
+1417cm-1 
+C=C stretching in quinoid ring 
+124 
+ 
+1420-50cm-1 
+CH2 scissoring vibration (lipid band) 
+53 
+ 
+1420-70cm-1 
+(prominent peak at 1445cm-1- being of diagnostic 
+significance) 
+81 
+ 
+ 
+CH2 bending mode of proteins & lipids 
+ 
+ 
+1420-80cm-1 
+G, A (DNA, RNA) 
+122 
+ 
+ 
+CH deformation (DNA/RNA & proteins & lipids & 
+carbohydrates) 
+122 
+ 
+1420/1cm-1 
+Deoxyribose, (B,Z-marker) 
+106 
+ 
+1421cm-1 
+A, G (ring breathing modes of the DNA/RNA bases) 
+103 
+ 
+1422cm-1 
+Deoxyribose, (B,Z-marker) 
+106 
+ 
+1423cm-1 
+NH in-plane deformation 
+104 
+ 
+1424cm-1 
+Deoxyribose, (B,Z-marker) 
+106 
+ 
+1436cm-1 
+CH2 scissoring 
+106 
+ 
+1437cm-1 
+CH2 (lipids in normal tissue) 
+76 
+ 
+ 
+CH2 deformation (lipid) 
+31 
+ 
+ 
+Acyl chains 
+71 
+ 
+1437-42cm-1 
+CH2 deformation 
+71 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+134 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1437-53cm-1 
+CH2 deformation 
+113 
+ 
+1438/39/40/42/4
+3cm-1 
+Lipid 
+141 
+ 
+1439cm-1 
+CH2 bending mode in normal tissue 
+21 
+ 
+ 
+CH3,CH2 deformation (collagen assignment) 
+123 
+ 
+ 
+CH2 scissoring 
+119 
+ 
+ 
+CH2 deformation in normal breast tissue 
+123 
+ 
+ 
+CH2 deformation 
+123 
+ 
+ 
+CH2 
+76 
+ 
+ 
+δ(CH2) (lipids) 
+70 
+ 
+1440cm-1 
+CH2 and CH3 deformation vibrations 
+2 
+ 
+ 
+CH deformation 
+71 
+ 
+ 
+Cholesterol, fatty acid band 
+71 
+ 
+ 
+δ(CH2) (lipids) 
+70 
+ 
+ 
+CH2 bending (lipids) 
+70, 113 
+ 
+1441cm-1 
+CH2 scissoring & CH3 bending in lipids 
+78 
+ 
+ 
+Cholesterol & its esters 
+94 
+ 
+ 
+C-H bending mode of accumulated lipids in the 
+94 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+135 
+vecrotic core of the atheromatous plaque 
+ 
+1442cm-1 
+Fatty acids 
+2, 3 
+ 
+ 
+CH2 bending mode  
+1 
+ 
+ 
+Due to changes in chemical environment of the CH2 
+bending mode 
+2 
+ 
+ 
+CH3,CH2 deformation (collagen assignment) 
+123 
+ 
+ 
+Triglycerides (fatty acids) 
+94 
+ 
+1443cm-1 
+CH2 deformation (lipids and proteins) 
+31 
+ 
+ 
+Triglycerides (fatty acids) 
+94 
+ 
+1444cm-1 
+Cholesterol band (associated to atherosclerotic 
+spectrum) 
+94 
+ 
+ 
+ν28 (CαCm), observed in the spectra of single human 
+RBC 
+98 
+ 
+ 
+δ(CH2), lipids, fatty acids 
+63 
+ 
+1445cm-1 
+δ(CH2), δ(CH3), collagen (protein assignment) 
+20, 126 
+ 
+ 
+δ(CH2), δ(CH3), scissoring, phospholipids (lipid 
+assignment) 
+20, 126 
+ 
+ 
+CH2CH3 bending modes of collagen & phospholipids  
+20, 65 
+ 
+ 
+CH2scissoring 
+20 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+136 
+ 
+1445cm-1 
+CH2 bending mode of proteins & lipids-being of 
+diagnostic significance 
+81 
+ 
+ 
+CH2 bending and scissoring modes of collagen and 
+phospholipids 
+35 
+ 
+ 
+Methylene bending mode (a combination of proteins 
+& phospholipids) 
+35 
+ 
+ 
+CH2 bending modes 
+126 
+ 
+ 
+CH2 deformation 
+113 
+ 
+1446cm-1 
+CH2 bending mode of proteins & lipids 
+31, 30 
+ 
+ 
+CH2 deformation 
+123 
+ 
+1447cm-1 
+CH2 bending mode of proteins & lipids 
+111 
+ 
+ 
+CH2 deformation (protein vibration)-A marker for 
+protein concentration 
+103 
+ 
+ 
+δas(CH3) δ(CH2) of proteins 
+70 
+ 
+1448cm-1 
+CH2CH3 deformation 
+50 
+ 
+ 
+CH2 deformation 
+123 
+ 
+ 
+CH2 
+76 
+ 
+ 
+Collagen 
+34 
+ 
+ 
+CH deformation 
+29 
+ 
+1449cm-1 
+C-H vibration (proteins) 
+122 
+ 
+ 
+C-H vibration (lipids) 
+122 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+137 
+ 
+ 
+Lipids 
+122 
+ 
+1450cm-1 
+CH2 bending 
+51, 62, 76 
+ 
+ 
+CH2 bending mode in malignant tissues 
+21 
+ 
+ 
+Bending modes of methyl groups(one of vibrational 
+modes of collagen) 
+ 
+ 
+ 
+Methylene deformation in biomolecules 
+3 
+ 
+ 
+CH2 deformation in IDC breast tissue 
+123 
+ 
+ 
+C-H deformation bands (CH functional groups in 
+lipids, amino acids side chains of the proteins and 
+carbohydrates) 
+102 
+ 
+ 
+ δ(C-H) 
+102 
+ 
+ 
+CH2 bending (proteins) 
+70 
+ 
+1451cm-1 
+CH2CH3 deformation 
+70 
+ 
+ 
+CH2CH3 deformation (collagen assignment) 
+123 
+ 
+1453cm-1 
+Protein bands 
+2, 3 
+ 
+ 
+Umbrella mode of methoxyl (4) 
+121 
+ 
+ 
+C-H bending mode of structural proteins 
+94 
+ 
+1453cm-1 
+Structural protein modes of tumors 
+27 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1454cm-1 
+CH2 stretching/CH3 assymetric deformation 
+111 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+138 
+ 
+ 
+Overlapping asymmetric CH3 bending & CH2 
+scissoring (is associated with elastin, collagen& 
+phospholipids) 
+81 
+ 
+ 
+Collagen & phospholipids 
+27 
+ 
+1455cm-1 
+Deoxyribose 
+106 
+ 
+ 
+δ(CH2) 
+70 
+ 
+1457cm-1 
+Deoxyribose 
+106 
+ 
+1458cm-1 
+Nucleic acid modes 
+1 
+ 
+ 
+Nucleic acid modes indicating the nucleic acid content 
+in tissues 
+137 
+ 
+1459cm-1 
+Deoxyribose 
+106 
+ 
+ 
+δ(CH2) 
+70 
+ 
+1460cm-1 
+CH2/CH3 deformation of lipids & collagen 
+50 
+ 
+ 
+CH2 wagging, CH2/CH3 deformation 
+50 
+ 
+ 
+Deoxyribose 
+106 
+ 
+1462cm-1 
+δCH2 , Disaccharides, sucrose 
+64 
+ 
+1463cm-1 
+Fermi interaction  δ(CH2), & γ(CH2) 
+70 
+ 
+1465cm-1 
+Lipids 
+3 
+ 
+1470cm-1 
+C=N stretching 
+124 
+ 
+1472cm-1 
+Paraffin 
+3 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+139 
+ 
+1477cm-1 
+Calcium oxalate 
+47 
+ 
+1480-575cm-1 
+Amide II (largely due to a coupling of CN stretching 
+& in-plane bending of the N-H group-is not often used 
+for structural studies per se because it is less sensitive 
+& is subject to interference from absorption bounds of 
+amino acid side chain vibrations) 
+3 
+ 
+1485cm-1 
+G, A (ring breathing modes in the DNA bases) 
+103 
+ 
+ 
+Nucleotide acid purine bases (guanine and adenine) 
+31 
+ 
+1485-550cm-1 
+NH3
++ 
+111 
+ 
+1487/8cm-1 
+Guanine (N7) 
+106 
+ 
+1488cm-1 
+Collagen 
+34 
+ 
+1490cm-1 
+DNA 
+76 
+ 
+ 
+Formalin peak appearing in the fixed normal and 
+tumor tissues 
+35 
+ 
+1491cm-1 
+C-N stretching vibration coupled with the in-plane C-
+H bending in amino radical cations 
+111 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1492cm-1 
+Formalin peak appearing in the fixed normal and 
+tumor tissues 
+35 
+ 
+1499cm-1 
+C-C stretching in benzenoid ring 
+124 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+140 
+ 
+1506cm-1 
+N-H bending 
+124 
+ 
+1506/08cm-1 
+1510cm-1 
+Cytosine 
+106 
+ 
+1510cm-1 
+A (ring breathing modes in the DNA bases) 
+103 
+ 
+1513cm-1 
+Cytosine 
+106 
+ 
+1514cm-1 
+ν(C=C) - Diagnostic for the presence of a carotenoid 
+structure, most likely a cellular pigment 
+102 
+ 
+ 
+ν(C=C) carotenoids 
+126 
+ 
+1515cm-1 
+Cytosine 
+106 
+ 
+1515/25cm-1 
+1526cm-1 
+Carotenoids 
+141 
+ 
+1517cm-1 
+β-carotene accumulation (C-C stretch mode) 
+94 
+ 
+1518cm-1 
+ν(C=C), porphyrin 
+20 
+ 
+ 
+Carotenoid peaks due to C-C & conjugated C=C band 
+stretch 
+20 
+ 
+1520cm-1 
+Carotene 
+76 
+ 
+1520-38cm-1 
+-C=C- carotenoids 
+31, 29 
+ 
+1524cm-1 
+Carotenoid (absent in normal tissues) 
+1 
+ 
+1525cm-1 
+In-plane vibrations of the conjugated -C=C- 
+95 
+ 
+1528cm-1 
+Carotenoid (absent in normal tissues) 
+1 
+ 
+1540-680cm-1 
+Amide carbonyl group vibrations and aromatic 
+134 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+141 
+hydrogens 
+ 
+1542cm-1 
+Single Human RBC, Amide II 
+38 
+ 
+1543cm-1 
+ν11 (CβCβ),  observed in the spectra of single human 
+RBC 
+102 
+ 
+1544cm-1 
+Amide II 
+3 
+ 
+1545cm-1 
+C6-H deformation mode 
+104 
+ 
+1546cm-1 
+Bound & free NADH 
+76 
+ 
+ 
+Tryptophan 
+67 
+ 
+1547cm-1 
+Proline 
+29 
+ 
+1548cm-1 
+Tryptophan 
+31, 30 
+ 
+1552cm-1 
+Tryptophan 
+20 
+ 
+ 
+ν(C=C), tryptophan (protein assignment) 
+20 
+ 
+ 
+ν(C=C), porphyrin 
+20 
+ 
+1554cm-1 
+Amide II 
+111 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1558cm-1 
+Tryptophan 
+50 
+ 
+ 
+ν (CN) and δ (NH) amide II (protein assignment) 
+126 
+ 
+ 
+ν(C=C) porphyrin 
+126 
+ 
+ 
+Tyrosine, amide II, COO- 
+70 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+142 
+ 
+1560cm-1 
+Tryptophan 
+52 
+ 
+1560-600cm-1 
+COO- 
+6 
+ 
+1573cm-1 
+Guanine, adenine, TRP (protein) 
+31 
+ 
+1575cm-1 
+Ring breathing modes in the DNA bases 
+103 
+ 
+ 
+G, A (ring breathing modes of the DNA/RNA bases) 
+ 
+ 
+1576cm-1 
+Nucleic acid mode 
+1 
+ 
+ 
+Nucleic acid modes indicating the nucleic acid content 
+in tissues 
+137 
+ 
+1576/7cm-1 
+Guanine (N3) 
+106 
+ 
+1577cm-1 
+Bound & free NADH 
+76 
+ 
+ 
+IgG? 
+70 
+ 
+1578cm-1 
+Guanine (N3) 
+106 
+ 
+ 
+Guanine, adenine 
+122 
+ 
+1579cm-1 
+Pyrimidine ring (nucleic acids) & heme protein 
+31, 30 
+ 
+1580cm-1 
+C-C stretching 
+124 
+ 
+ 
+C=C bending mode of Phenylalanine 
+100 
+ 
+1582cm-1 
+δ(C=C), phenylalanine 
+20 
+ 
+ 
+Phenylalanine 
+20 
+ 
+1583cm-1 
+C=C bending mode of phenylalanine 
+81 
+ 
+1585cm-1 
+C=C olefinic stretch 
+111 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+143 
+ 
+ 
+C=C olefinic stretch (protein assignment) 
+127 
+ 
+1585cm-1 
+Phenylalanine, hydroxyproline 
+38 
+ 
+1586/8cm-1 
+Phenylalanine, hydroxyproline 
+50 
+ 
+1590cm-1 
+Carbon particles 
+33 
+ 
+1593cm-1 
+C=N and C=C stretching in quinoid ring 
+124 
+ 
+1600-800cm-1 
+Amide I band of proteins-Due to C=O stretching 
+52, 103 
+ 
+ 
+Amide I (which is due mostly to the C=O stretching 
+vibrations of the peptide backbone-Has been used the 
+most for structural studies due to its high sensitivity to 
+small changes in molecular geometry & hydrogen 
+bonding of peptide group) 
+3 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1602cm-1 
+Phenylalanine 
+20 
+ 
+ 
+δ(C=C), phenylalanine (protein assignment) 
+50 
+ 
+1603cm-1 
+C=C in-plane bending mode of phenylalanine & 
+tyrosine 
+31, 30 
+ 
+ 
+Ring C-C stretch of Phenyl (1) 
+121 
+ 
+1605cm-1 
+Cytosine (NH2) 
+102 
+ 
+ 
+Ring C-C stretch of Phenyl (1) 
+121 
+ 
+ 
+Phenylalanine, tyrosine, C=C (protein) 
+103 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+144 
+ 
+1606cm-1 
+C=C bending 
+39 
+ 
+1607cm-1 
+Tyrosine, Phenylalanine ring vibration 
+70 
+ 
+ 
+C=C phenylalanine, tyrosine 
+122 
+ 
+1608/9cm-1 
+Cytosine (NH2) 
+106 
+ 
+1610cm-1 
+Cytosine (NH2) 
+106 
+ 
+1614cm-1 
+Tyrosine 
+50 
+ 
+1615cm-1 
+Tyrosine, Tryptophan, C=C (protein) 
+103 
+ 
+ 
+Adenine 
+30 
+ 
+1616cm-1 
+C=C stretching mode of tyrosine & tryptophan 
+31, 30 
+ 
+1617cm-1 
+ν (CaCb),  observed in the spectra of single human 
+RBC 
+102 
+ 
+ 
+C=C phenylalanine, tyrosine 
+122 
+ 
+1618cm-1 
+ν(C=C), tryptophan (protein assignment) 
+20 
+ 
+ 
+ν(C=C), porphyrin 
+20 
+ 
+ 
+Tryptophan 
+20 
+ 
+ 
+Bound & free NADH 
+76 
+ 
+1620cm-1 
+ν(C=C), porphyrin 
+126 
+ 
+1620-750cm-1 
+In-plane double end vibrations of bases- The spectra in 
+this region are very sensitive to base-pairing 
+interactions & base-stacking effects, i.e effects of 
+3 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+145 
+hydrogen bond formation 
+ 
+1622cm-1 
+Tryptophan 
+50 
+ 
+ 
+Tryptophan &/or β-sheet 
+50 
+ 
+ 
+Tryptophan (IgG?) 
+70 
+ 
+1623cm-1 
+Tryptophan 
+38 
+ 
+1628cm-1 
+Cα=Cα stretch 
+121 
+ 
+ 
+Amide C=O stretching absorption for the β-form 
+polypeptide films 
+6 
+ 
+1634cm-1 
+Amide I 
+3 
+ 
+1635cm-1 
+Differences in collagen content 
+3 
+ 
+1637cm-1 
+Amide I band 
+111 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+ 
+Amide I band (both α-helix and β-structure) 
+70 
+ 
+1638cm-1 
+Intermolecular bending mode of water 
+31 
+ 
+ 
+Very weak and broad ν2 mode of water 
+70 
+ 
+1640-80cm-1 
+Amide I band (protein band) 
+142 
+ 
+1645cm-1 
+Amide I (α-helix) 
+31 
+ 
+1647cm-1 
+Random coils 
+70 
+ 
+1650cm-1 
+ (C=C) Amide I 
+76 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+146 
+ 
+ 
+Protein amide I absorption 
+ 
+ 
+ 
+Amide I 
+55 
+ 
+1652/3cm-1 
+Lipid (C=C stretch) 
+31 
+ 
+1653/4/5 
+Lipid 
+141 
+ 
+1653cm-1 
+Carbonyl stretch (C=O), Amide I 
+104, 38 
+ 
+1654cm-1 
+Due to a combination of C=C stretch & the Amide I 
+bands + Amide I 
+3, 21 
+ 
+ 
+Amide I (collagen assignment) 
+123 
+ 
+ 
+C=C stretch 
+123 
+ 
+ 
+Amide I (C=O stretching mode of proteins, α-helix 
+conformation)/C=C lipid strech  
+31 
+ 
+ 
+Collagen 
+27 
+ 
+1655cm-1 
+Amide I (of collagen)  
+50 
+ 
+ 
+C=C (of lipids in normal tissues- not that of amide I) 
+77 
+ 
+ 
+ν(C=O) amide I, α-helix, collagen 
+20, 62, 126 
+ 
+ 
+Amide I (C=O stretching mode of proteins, α-helix 
+conformation)/C=C lipid strech  
+31, 30 
+ 
+ 
+In normal tissues : C=C of lipids (& not amide I) 
+20 
+ 
+ 
+C=O stretching of collagen & elastin (protein 
+assignment) 
+20 
+ 
+ 
+Amide I of proteins 
+35, 126 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+147 
+ 
+ 
+Amide I (collagen assignment) 
+123 
+ 
+ 
+Amide I (typically associated with collagen) 
+112 
+ 
+ 
+Amide I (α-helix), Amide I 
+64, 39 
+ 
+1655-80cm-1 
+Amide I (proteins) 
+122 
+ 
+ 
+C=O stretching (lipids) 
+122 
+ 
+1656cm-1 
+C=C (lipids) 
+70 
+ 
+ 
+Amide I (proteins) 
+70 
+ 
+1655-80cm-1 
+T, G, C (ring breathing modes of the DNA/RNA 
+bases)-amide I (protein) 
+103 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1656cm-1 
+ν(C=C)cis (phospholipids) 
+70 
+ 
+1657cm-1 
+Fatty acids 
+2, 3 
+ 
+ 
+Amide I (collagen assignment) 
+123 
+ 
+ 
+Triglycerides (fatty acids) 
+94 
+ 
+1658cm-1 
+Amide I (α-helix) 
+70 
+ 
+1659cm-1 
+Amide I vibration (collagen like proteins) 
+33, 131 
+ 
+ 
+Amide C=O stretching absorption for the α-folded 
+polypeptide films 
+6 
+ 
+ 
+Cholesterol band (associated to atherosclerotic 
+spectrum) 
+94 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+148 
+ 
+ 
+Glutathione 
+29 
+ 
+1660cm-1 
+Amide I band 
+102 
+ 
+ 
+Amide I 
+102 
+ 
+ 
+Amide I vibration mode of structural proteins 
+94 
+ 
+ 
+ν(C=C) cis, lipids, fatty acids 
+64 
+ 
+ 
+C=C groups in unsaturated fatty acids 
+71 
+ 
+ 
+Ceramide backbone 
+71 
+ 
+ 
+Amide I (protein) 
+122 
+ 
+ 
+Lipids 
+122 
+ 
+1662cm-1 
+Nucleic acid modes 
+1 
+ 
+ 
+Nucleic acid modes indicating the nucleic acid content 
+in tissues 
+138 
+ 
+1663cm-1 
+DNA 
+110 
+ 
+ 
+Proteins, including collagen I  
+110 
+ 
+1664/5cm-1 
+Amide I 
+50 
+ 
+1665cm-1 
+Amide I (of collagen) 
+50 
+ 
+ 
+Amide I 
+50 
+ 
+ 
+Amide I (collagen assignment) 
+123 
+ 
+ 
+Amide I (disordered structure-solvated) 
+64 
+ 
+ 
+νs(C=O) 
+139 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+149 
+ 
+1666cm-1 
+Collagen 
+34 
+ 
+1667cm-1 
+Protein band 
+2, 3 
+ 
+ 
+C=C stretching band  
+1 
+ 
+ 
+α-helical structure of amide I 
+20 
+ 
+ 
+Structural protein modes of tumors 
+27 
+ 
+ 
+Carbonyl stretch (C=O) 
+104 
+ 
+1669cm-1 
+Carbonyl stretch (C=O) 
+104 
+ 
+ 
+Cholesterol ester 
+71 
+ 
+1670cm-1 
+Amide I 
+51 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1670cm-1 
+C=C stretching vibrations 
+2 
+ 
+ 
+Cholesterol & its esters  
+94 
+ 
+ 
+C=C stretching vibration mode of steroid ring 
+94 
+ 
+ 
+Amide I (Anti-parallel β-sheet) 
+64 
+ 
+ 
+ν(C=C) trans, lipids, fatty acids 
+64 
+ 
+1672cm-1 
+C=C stretch 
+121 
+ 
+ 
+Amide I band (C=O stretch coupled to a N-H bending) 
+71 
+ 
+ 
+Ceramide 
+71 
+ 
+1673cm-1 
+Amide I 
+111 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+150 
+ 
+1674cm-1 
+C=C stretch vibration 
+71 
+ 
+ 
+Cholesterol 
+71 
+ 
+1676cm-1 
+Amide I (β-sheet) 
+70 
+ 
+1678cm-1 
+Bound & free NADH 
+76 
+ 
+1682cm-1 
+One of absorption positions for the C=O stretching 
+vibrations of cortisone 
+6 
+ 
+1685cm-1 
+Amide I (disordered structure-non-hydrogen bonded) 
+64 
+ 
+1697cm-1 
+Amide I (turns and bands) 
+70 
+ 
+1700-50cm-1 
+ν(C=O)OH (amino acids aspartic & glutamic acid) 
+64 
+ 
+1710cm-1 
+One of absorption positions for the C=O stretching 
+vibrations of cortisone 
+6 
+ 
+1716-41cm-1 
+C=O 
+71 
+ 
+1720cm-1 
+Lipid 
+37 
+ 
+1725cm-1 
+C=O lipids 
+38 
+ 
+1729cm-1 
+Ester group 
+71 
+ 
+1732cm-1 
+One of absorption positions for the C=O stretching 
+vibrations of cortisone 
+6 
+ 
+1734cm-1 
+Esters, C=O stretching (lipids) 
+122 
+ 
+1736cm-1 
+C=O ester (lipids) 
+122 
+ 
+1737cm-1 
+C=O Ester (lipids) 
+38 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+151 
+ 
+1738cm-1 
+Lipids 
+3 
+ 
+1739cm-1 
+Ester group 
+71 
+ 
+1740cm-1 
+Ester group 
+71 
+ 
+1743/5cm-1 
+Lipid 
+141 
+ 
+1744cm-1 
+Carbonyl feature of lipid spectra 
+42 
+ 
+ 
+Ester group 
+71 
+ 
+1745cm-1 
+Phospholipids 
+20 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+1745cm-1 
+ν(C=O), phospholipids (Lipid assignment) 
+20, 126 
+ 
+ 
+ν(C=O), phospholipids 
+131 
+ 
+ 
+Triglycerides (fatty acids) 
+94 
+ 
+ 
+ν(C=O) (polysaccharides, pectin) 
+64 
+ 
+1746cm-1 
+C=O stretch (lipid)    
+31 
+ 
+1747cm-1 
+C=O, lipids 
+70 
+ 
+1750cm-1 
+C=O (lipid in normal tissues) 
+76 
+ 
+ 
+ν(C=C) lipids, fatty acids 
+64 
+ 
+1754cm-1 
+C=O (lipid) 
+70 
+ 
+1756cm-1 
+One of absorption positions for the C=O stretching 
+vibrations of cortisone 
+6 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+152 
+ 
+2095cm-1 
+C-N stretch (one of three thiocyanate peaks, with 445 
+& 735 cm-1) 
+104 
+ 
+2225cm-1 
+C≡N 
+19 
+ 
+2300-3800cm-1 
+Region of the OH-NH-CH stretching vibrations 
+128 
+ 
+2343cm-1 
+Asymmetric stretching band of CO2
+- hydrates 
+128 
+ 
+2550-80cm-1 
+ν(S-H) (aminoacid methionine) 
+64 
+ 
+2700- 
+3300cm-1 
+C-H stretches 
+19 
+ 
+2700- 
+3500cm-1 
+Stretching vibrations of CH, NH, and OH groups 
+71 
+ 
+2741cm-1 
+Stretching vibrations of CH, NH, and OH groups 
+38 
+ 
+2800- 
+3050cm-1 
+Contributions from acyl chans 
+71 
+ 
+2800- 
+3100cm-1 
+CH, CH2, & CH3 symmetric and antisymmetric 
+stretching 
+137 
+ 
+2817-49cm-1 
+CH2 symmetric stretch of lipids (suggests change in 
+the amount of lipid) 
+113 
+ 
+2840-75cm-1 
+CH3 symmetric stretch of lipids 
+113 
+ 
+2850cm-1 
+νs CH2, lipids, fatty acids 
+64 
+ 
+ 
+CH2 symmetric 
+ 
+ 
+2850-75cm-1 
+CH2 symmetric stretch of lipids 
+113 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+153 
+ 
+2853-81cm-1 
+CH2 symmetric stretch of lipids &  CH2 asymmetric 
+stretch of lipids and proteins 
+113 
+ 
+2876-906cm-1 
+CH2 asymmetric stretch and CH stretch of lipids and 
+proteins 
+113 
+ 
+2876-919cm-1 
+CH2 asymmetric stretch of lipids and proteins 
+113 
+ 
+2879cm-1 
+CH2 and CH of lipids and proteins 
+38 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+2883cm-1 
+CH2 asymmetric stretch of lipids and proteins 
+113 
+ 
+2885cm-1 
+νs CH3, lipids, fatty acids 
+64 
+ 
+2886cm-1 
+Fermi resonance CH2 stretch 
+71 
+ 
+2889-908cm-1 
+CH2 asymmetric stretch of lipids and proteins 
+113 
+ 
+2900cm-1 
+CH stretch of lipids and proteins 
+113 
+ 
+2893/4/5cm-1 
+CH3 symmetric stretch 
+142 
+ 
+2900cm-1 
+CH stretch 
+141 
+ 
+2910-65cm-1 
+CH3 stretching vibrations 
+55 
+ 
+2913-38cm-1 
+CH stretch of lipids and proteins 
+133, 38 
+ 
+2915cm-1 
+CH band of lipids and proteins (The lipid band has a 
+tendency towards higher levels of energy, such as 
+2855cm-1, while the protein band’s tendency is 
+towards lower energy levels like 2920cm-1)                         
+42 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+154 
+ 
+2928cm-1 
+Symmetric CH3 stretch 
+42 
+ 
+ 
+Due primarily to protein 
+42 
+ 
+2929-40cm-1 
+CH2 asymmetric stretch 
+113 
+ 
+2933cm-1 
+CH2 asymmetric stretch 
+113 
+ 
+2935cm-1 
+Chain end CH3 symmetric band 
+71 
+ 
+2940cm-1 
+C-H vibrations in lipids & proteins 
+52 
+ 
+ 
+νas CH2, lipids, fatty acids 
+64 
+ 
+2956/7cm-1 
+CH3 asymmetric stretch 
+142 
+ 
+2960cm-1 
+Out-of-plane chain end antisymmetric CH3 stretch 
+band 
+71 
+ 
+2970cm-1 
+νas CH3, lipids, fatty acids 
+64 
+ 
+ 
+Cholecterol and cholesterol ester 
+71 
+ 
+2971/3cm-1 
+Asymmetric stretching of methoxy(4) 
+121 
+ 
+2987cm-1 
+cholesterol ester cholesterol ester 
+38 
+ 
+>3000cm-1 
+CH stretching 
+135 
+ 
+3006 Bond =C-H stretch 
+141 
+ 
+3008cm-1 
+νas (=C-H), lipids, fatty acids 
+64 
+ 
+3010cm-1 
+Unsaturated =CH stretch 
+71 
+ 
+3015cm-1 
+ν=CH of lipids 
+121 
+ 
+3232cm-1 
+O-H & N-H stretching vibrations (hydrogen bonding 
+142 
+Downloaded by [George Mason University] at 07:57 18 June 2014 
+ACCEPTED MANUSCRIPT 
+ACCEPTED MANUSCRIPT 
+155 
+network may vary in the malignant tissues) 
+ 
+3296cm-1 
+NH asymmetric stretching (proteins), Amide A 
+28 
+ 
+Peak 
+Assignment 
+Reference 
+Number 
+ 
+3300cm-1 
+Attributed to OH stretch 
+71 
+ 
+3329cm-1 
+N-H vibration of proteins 
+55 
+ 
+3350-550cm-1 
+OH stretching 
+55 
+ 
+3550scm-1 
+O-H stretching vibration 
+143 

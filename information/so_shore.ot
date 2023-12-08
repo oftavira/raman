@@ -1,0 +1,51 @@
+En las platicas anteriores se ha hablado del trabajo previo o las motivaciones
+para crear una herramienta de analisis cientifico especializada en ER,
+sin embargo tenemos la oportunidad de ver como proyectos mas conocidos 
+estan inspirados por la recoleccion de informacion y procesamiento en masa
+la escuela conto ya con una propuesta anteriormente en mi tesis de maestria
+
+##############################################################################
+##############################################################################
+
+The Journal of physical chemistry menciona la valiosa necesidad de automatizar 
+las cosas
+
+##############################################################################
+##############################################################################
+
+
+Como se comenta en "Analyzing Raman spectroscopic Data" las aplicaciones estan
+regidas por sus particularidades, sin embargo podemos definir un curso standar
+por el cual los datos pasan en la mayoria de los casos, Este flujo de trabajo
+es comunmente mencionado en los proyectos de automatizacion
+
+##############################################################################
+##############################################################################
+
+
+esta herramienta, entre los que podemos mencionar  :
+
+- Cuantificacion de sustancias
+- Reconocimiento de estructuras o enlaces presentes
+- Clasificacion 
+- Control de calidad
+- Diagnosticos medicos
+
+BASES DE DATOS Y REFERENCIAS P COMPARACION
+Sin embargo la pregunta de como podemos acceder a estas herramientas debe quedar
+resuelta. En general se suele hacer uso de bases de datos publicas _ref_ o privadas
+para poder comparar el analito.
+
+TEORIA DE LA INFORMACION Y RECOLECCION
+Este trabajo, dada la naturaleza informatica, intenta recabar la mayor variedad de puntos
+de vista o teorias aceptadas para el tratamiento de los datos experimentales. Los modelos 
+dictan un marco de referencia para que las observaciones sean interpretadas.
+_ref_ 
+
+NUEVOS METODOS DE BIBLIOGRAFIA
+Respecto a las nuevas herramientas podemos destacar aquellas que nos permiten recolectar
+grandes cantidades de informacion y aprovechar esta para crear un marco de trabajo en
+torno a nuestro experimento, connected papers nos dio la oportunidad de concentrar esta
+informacion para raman
+
+
