@@ -8,24 +8,27 @@ import ipywidgets as widgets
 from IPython.display import display
 import os
 
-# TODO: Static methods for the class RamanSpectrum
-
 def gaussian(x, amplitude, mean, stddev):
     return amplitude * np.exp(-(x - mean) ** 2 / (2 * stddev ** 2))
 
-def multi_gauss(x, *params):
+def fit_gaussians(x, *params):
     num_peaks = len(params) // 3
     result = np.zeros_like(x)
     for i in range(num_peaks):
         result += gaussian(x, params[i * 3], params[i * 3 + 1], params[i * 3 + 2])
     return result
 
-
 class ramanfrom:
     # ramanspecs : Raman Spectrums with the date and time as key and RamanSpectrum as value. 
     # e.g. :{'20.06.2023 12:33:31': RamanSpectrum (repr): ./muestras/billete_e/Organic_14.txt}
     # note that this Raman Spectrum is an object and it has methods such as fit or plot according
     # to the next class in this document.
+
+    def __repr__(self):
+        return 'ramanfrom (repr) total of elements: ' + str(self.count) + '_ With shapes : ' + str(self.shapes_sumary)
+    
+    def __str__(self):
+        return 'ramanfrom (str): ' + str(self.count)
 
     def __init__(self, path='', extetion= '.txt'):
         if path == '':
@@ -34,20 +37,27 @@ class ramanfrom:
             # TODO: Improve the accesibility of the files
             ramanspec_dict = {}
             ramanspec_index = {}
-            count = 0
+            ramanspec_mimx = {}
+            self.count = 0
             
             for r, d, f in os.walk(path):
                 for file in f:
                     if extetion in file:
                         # TODO: Reasign count when a file was deleted
                         raman_object = RamanSpectrum(r+'/'+file)
-                        raman_object.next2title = '_index : ' + str(count)
-                        ramanspec_index[count] = raman_object
-                        ramanspec_dict[raman_object.metadata['Acquired']] = raman_object
-                        count += 1 
+                        raman_object.next2title = '_index : ' + str(self.count)
+                        ramanspec_index[self.count] = raman_object
+                        ramanspec_dict[raman_object.metadata['Acquired'] + file] = raman_object
+                        self.count += 1
             self.path = path
             self.raman_index = ramanspec_index
             self.raman_dict = ramanspec_dict
+            self.get_span_info()
+
+            for k,v in ramanspec_dict.items():
+                ramanspec_mimx[k] = [min(v.x),max(v.x)]
+
+            self.raman_mimx = ramanspec_mimx
 
     def pop(self, index):
         name = self.raman_index[index]
@@ -57,6 +67,34 @@ class ramanfrom:
     def randomspec(self):
         return self.raman_dict[np.random.choice(list(self.raman_dict.keys()))]
     
+    def get_span_info(self,print_info=False):
+        self.shapes = []
+        self.shapes_sumary = {}
+        for k,v in self.raman_dict.items():
+            self.shapes.append(v.normalized_y.shape)
+        self.shapes = np.array(self.shapes)
+        unique_values, counts = np.unique(self.shapes, return_counts=True)
+        for value, count in zip(unique_values, counts):
+            self.shapes_sumary[value] = count
+        if print_info:
+            print(self.shapes_sumary)
+    
+    def plot_all(self):
+        # Plotting all the normalized_y in a single plot
+        plt.figure(figsize=(10, 6))
+        for k,v in self.raman_dict.items():
+            plt.plot(v.x,v.normalized_y,label=k)
+
+    def del_repeated(self,repeats = 6):
+        todel = []
+        for k,v in self.raman_dict.items():
+            reps, lsvals = v.value_repeats(n_threshold=repeats)
+            if 1.0 in lsvals:
+                todel.append(k)
+            else:
+                pass
+        return todel
+
 
 class RamanSpectrum:
 
@@ -107,7 +145,23 @@ class RamanSpectrum:
         "self.dictcoords"
         "self.metakeys"
     
+    def xrange(self,):
+        string_inter = self.metadata['Range (cm-¹)']
+        xmin = float(string_inter.split('...')[0])
+        xmax = float(string_inter.split('...')[1])
+        return xmin,xmax
     
+    def value_repeats(self, n_threshold=5, apply_to_normalized=True):
+        if apply_to_normalized:
+            y = self.normalized_y
+        else:
+            y = self.y
+        unique_elements, counts = np.unique(y, return_counts=True)
+        repeated_elements = unique_elements[counts > n_threshold]    
+        if len(repeated_elements) > 0:
+            return True, repeated_elements
+        else:
+            return False, []
     
     def plot_normalized(self):
         plt.plot(self.x,self.normalized_y)
@@ -595,7 +649,7 @@ class RamanSpectrum:
         else:
             raise Exception("Especifique de donde se obtendrán los datos")
 
-        params, _ = curve_fit(multi_gauss, x, y, p0=initial_guess)
+        params, _ = curve_fit(fit_gaussians, x, y, p0=initial_guess)
 
         # # Extract individual peak parameters
         num_peaks = len(params) // 3
@@ -624,28 +678,28 @@ class RamanSpectrum:
         print("\n")
 
         self.gaussbasedx = x
-        self.gaussbasedy = y - multi_gauss(x, *params)
+        self.gaussbasedy = y - fit_gaussians(x, *params)
 
         self.multiparams = params
         self.fitedparamsx = x
-        self.fitedparamsy = multi_gauss(x, *params)
+        self.fitedparamsy = fit_gaussians(x, *params)
 
         if interactive:
             
-            return [x, multi_gauss(x, *params), params, _]
+            return [x, fit_gaussians(x, *params), params, _]
         
         else:
             # # Plot the original spectrum and the fitted curve
             plt.figure(figsize=(8, 6))
             plt.title(self.metadata['Acquired'])
             plt.plot(x, y, label='Original Spectrum')
-            # plt.plot(x, multi_gauss(x, *params), color='red',label='Fitted Curve')
+            # plt.plot(x, fit_gaussians(x, *params), color='red',label='Fitted Curve')
 
             # # Plot the individual peaks
             for i, (amplitude, mean, stddev) in enumerate(peak_params):
                 plt.plot(x, gaussian(x, amplitude, mean, stddev), label=f'Peak {i+1}')
             
-            plt.plot(x, multi_gauss(x, *params), color='red',label='Fitted Curve')
+            plt.plot(x, fit_gaussians(x, *params), color='red',label='Fitted Curve')
             plt.xlabel('X')
             plt.ylabel('Intensity')
             plt.legend()
